@@ -24,15 +24,17 @@ body {
 }
 
 .container {
+  float: left;
   margin: 0 auto;
-  max-width: 550px;
+  max-width: 60%;
   padding: 0 10px;
   /*width: 100%;*/
 }
 
 .twitter {
+  float: left;
   margin: 0 auto;
-  max-width: 200px;
+  max-width: 30%;
   padding: 0 10px;
   /*width: 100%;*/
 }
