@@ -24,7 +24,6 @@ body {
 }
 
 .container {
-  float: left;
   margin: 0 auto;
   max-width: 60%;
   padding: 0 10px;
@@ -32,7 +31,6 @@ body {
 }
 
 .twitter {
-  float: left;
   margin: 0 auto;
   max-width: 30%;
   padding: 0 10px;
@@ -193,7 +191,7 @@ img {
   float: left;
 
   @include mobile {
-    float: none;
+    twitter: none;
     display: block;
     margin: 0 auto;
   }
