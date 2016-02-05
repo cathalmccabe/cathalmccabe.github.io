@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-
+<div>Blog</div>
 <div class="posts" id="blog">
   {% for post in site.posts %}
     {% if post.categories contains 'blog' %}
       <article class="post">    
-        
+        <img src="{{site.baseurl}}/images/news_icon.png">
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
   
         <div class="entry">
@@ -20,13 +20,14 @@ layout: default
 </div>
 
 
-<div>Seperator</div>
+<div>Projects</div>
 
 <div class="posts" id="projects">
   {% for post in site.posts %}
     {% if post.categories contains 'projects' %}
       <article class="post">    
         
+        <img src="{{site.baseurl}}/images/project_icon.png">
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
   
         <div class="entry">
