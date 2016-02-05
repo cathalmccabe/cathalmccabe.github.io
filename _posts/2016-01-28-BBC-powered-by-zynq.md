@@ -1,6 +1,6 @@
 ---
 layout: post
-category: blog
+category: projects
 title: Xilinx Zynq powering BBC radio data encoding
 ---
 
