@@ -1,7 +1,26 @@
 ---
 layout: default
 ---
-<div>Blog</div>
+
+<div><h1>All</h1></div>
+<div class="posts" id="blog">
+  {% for post in site.posts %}
+    #{% if post.categories contains 'blog' %}
+      <article class="post">    
+        <img src="{{site.baseurl}}/images/news_icon.png">
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  
+        <div class="entry">
+          {{ post.content | truncatewords:40}}
+        </div>
+        
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </article>
+      #{% endif %}
+  {% endfor %}
+</div>
+
+<div><h1>Blog</h1></div>
 <div class="posts" id="blog">
   {% for post in site.posts %}
     {% if post.categories contains 'blog' %}
@@ -20,7 +39,7 @@ layout: default
 </div>
 
 
-<div>Projects</div>
+<div><h1>Projects</h1></div>
 
 <div class="posts" id="projects">
   {% for post in site.posts %}
