@@ -7,7 +7,7 @@ layout: default
     <div class="posts" id="blog">
   {% else %}
     <div class="posts" id="projects">
-  {% endif}
+  {% endif %}
 
   {% for post in site.posts %}
     
@@ -18,7 +18,7 @@ layout: default
         {% else %}
         
           <img src="{{site.baseurl}}/images/projects_icon.png">
-        {% endif}
+        {% endif %}
           <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
     
           <div class="entry">
