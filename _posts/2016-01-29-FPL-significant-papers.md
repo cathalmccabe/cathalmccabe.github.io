@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 title: FPL 25th Anniversary signigicant papers
 ---
 
