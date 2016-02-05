@@ -1,6 +1,6 @@
 ---
 layout: post
-category: projects
+category: blog
 title: Cool Zedboard project
 ---
 
