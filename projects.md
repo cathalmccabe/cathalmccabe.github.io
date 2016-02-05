@@ -2,9 +2,9 @@
 layout: page
 ---
 
-<div class="posts" id="blog">
+<div class="posts" id="projects">
   {% for post in site.posts %}
-    {% if post.categories contains 'projects' %}
+    {% if post.categories contains 'blog' %}
       <article class="post">    
         
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
