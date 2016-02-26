@@ -248,16 +248,18 @@ a {
     
 // index.html
 #main_container{
-	width: 70%;
 	position: relative;
+   background-color: #000001;
 }
 #posts_container{
-	width: 30%;
+	width: 65%;
 	left: 0px;
+   background-color: #000012;
 }
 #right_bar{
-	width: 290px;
+	width: 30%;
 	right: 0px;
+   background-color: #000017;
 }
 #twitter{
 
