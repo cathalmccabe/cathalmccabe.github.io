@@ -20,7 +20,11 @@ layout: default
 			{% endif %}
 			  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 		     {{ post.date | date: '%B %d, %Y'}}
-			  <div class="entry">
+			  
+           <div id="post_thumbnail"><!-- Check if image exists-->
+              <img src="{{ site.baseurl }}{{ post.image }}">
+           </div>
+           <div class="entry">
 				{{ post.content | truncatewords:40}}
 			  </div>
 			  
