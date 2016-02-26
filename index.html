@@ -1,23 +1,21 @@
 ---
 layout: default
 ---
-<div id="main_container>
+<div id="main_container">
 
-	<div id="posts_container><h1>All</h1>
+	<div id="posts_container"> 
+      <h1>Posts</h1>
 
-
-	  {% for post in site.posts %}
-		{% if post.categories contains 'blog' %}
-		  <div class="posts" id="blog">
+      {% for post in site.posts %}
+		<div class="posts" id="blog">
+      {% if post.categories contains 'blog' %}
 		{% else %}
-		  <div class="posts" id="projects">
 		{% endif %}    
 		  <article class="post">    
-		  
+		   <!-- CHoose different image -->
 			{% if post.categories contains 'blog' %}
 			  <img src="{{site.baseurl}}/images/news_icon.png">
 			{% else %}
-			
 			  <img src="{{site.baseurl}}/images/project_icon.png">
 			{% endif %}
 			  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -28,23 +26,27 @@ layout: default
 			  
 			  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 		  </article>
-		</div>    
+        </div>  
       {% endfor %}
+   </div>
+   <div id="right_bar">
+      <div>
+      Tag Cloud/Search
       </div>
-      <div id="right_bar">
-         <div>
-         Tag Cloud/Search
-         </div>
-         <div>
-         Recent posts
-         </div>
-         <div id="twitter">
-            <a class="twitter-timeline" href="https://twitter.com/cathalmccabe" data-widget-id="694546693484875776">Tweets by @cathalmccabe</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		  </div>]
-	  </div>
+      
+      <div>
+      Recent posts
+      <br>
+      </div>
+      
+      <div id="twitter">
+         <a class="twitter-timeline" href="https://twitter.com/cathalmccabe" data-widget-id="694546693484875776">Tweets by @cathalmccabe</a>
+         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+     </div>
+     
 	  <div>Calender
 	  </div>
+	</div>
 </div>
 
 
