@@ -1,6 +1,16 @@
-Video processing on the Digilent Nexys Video
-Artix, Video Processing
-This project from Mike Filed of http://hamsterworks.co.nz shows how to take 1080p HDMI in do some processing, and send it to the HDMI out on the Digilent Nexys 4 DDR board which uses the Xilinx Artix 200T.
+---
+layout: post
+category: blog
+title: Video processing on the Digilent Nexys Video
+image: /images/blogs/n4_video_hdmi.jpg
+tags:
+- Artix
+- Video Processing
+- Nexys Video
+---
+
+
+This project from Mike Filed of http://hamsterworks.co.nz shows how to take 1080p HDMI in do some processing, and send it to the HDMI out on the Digilent Nexys Video board which uses the Xilinx Artix 200T.
 
 In this case, edge detection and a grid overlay can be switched on or off using the dip-switches on the board. The design also detects and displays the audio levels.
 
