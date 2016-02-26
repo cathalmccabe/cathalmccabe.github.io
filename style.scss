@@ -351,13 +351,12 @@ footer {
 .post-tags {
   text-align: right;
 }
-.posts #thumbnail{
-  img{
+#thumbnail img{
     width: 200px;
+    border: 5px;
     float: left;
-    //height: ;
-  }
 }
+
 .posts #entry{
     margin: 5px;
     border: 5px;
