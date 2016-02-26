@@ -21,12 +21,11 @@ layout: default
 			  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 		   {{ post.date | date: '%B %d, %Y'}}
 			
-         {% if post.image != '' or if post.image != nill %}  <!-- Check if image exists-->
-           <div id="thumbnail">
+         <div id="thumbnail">
+         {% if post.image != '' or if post.image != nill %}  <!-- Check if image exists--> 
               <img src="{{ site.baseurl }}{{ post.image }}">
-           </div>
          {% endif %}
-           <div id="entry">
+
 		   {{ post.content | truncatewords:40}}
 			  </div>
 			  
@@ -53,7 +52,7 @@ layout: default
 			  
 			{% endif %}
 			  <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-			  <br>{{ post.date | date: '%B %d, %Y'}}	<br>	  
+			  {{ post.date | date: '%B %d, %Y'}}	<br>	  
 			  <a href="{{ site.baseurl }}{{ post.url }}" >Read More</a>
          </article>
       {% endfor %}
