@@ -12,9 +12,9 @@ layout: default
          {% else %}
          {% endif %}    
 		   <article class="post">    
-		   <!-- CHoose different image -->
+		   <!-- Choose different image -->
 			{% if post.categories contains 'blog' %}
-			  <img src="{{site.baseurl}}/images/news_icon.png">
+			  <!--<img src="{{site.baseurl}}/images/news_icon.png">-->
 			{% else %}
 			  <img src="{{site.baseurl}}/images/project_icon.png">
 			{% endif %}
@@ -22,7 +22,7 @@ layout: default
 		   {{ post.date | date: '%B %d, %Y'}}
 			
          {% if post.image != '' or if post.image != nill %}  <!-- Check if image exists-->
-           <div id="post_thumbnail">
+           <div id="thumbnail">
               <img src="{{ site.baseurl }}{{ post.image }}">
            </div>
          {% endif %}
