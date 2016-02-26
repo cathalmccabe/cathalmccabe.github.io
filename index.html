@@ -4,7 +4,7 @@ layout: default
 <div id="main_container">
 
 	<div id="posts_container"> 
-      <h1>Posts</h1>
+      <h3>Posts</h3>
 
       {% for post in site.posts %}
 		<div class="posts" id="blog">
@@ -19,7 +19,7 @@ layout: default
 			  <img src="{{site.baseurl}}/images/project_icon.png">
 			{% endif %}
 			  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-		     {{ post.date}}
+		     {{ post.date | date: '%B %d, %Y'}}
 			  <div class="entry">
 				{{ post.content | truncatewords:40}}
 			  </div>
@@ -30,15 +30,14 @@ layout: default
       {% endfor %}
    </div>
    <div id="right_bar">
-      <div>
-      <h1><!--Search By Tags--></h1>
-      {% include post-tags.html %}
-
-      </div>
+      <!--<div>
+         <h1>Search By Tags</h1>
+         {% include post-tags.html %}
+      </div>-->
       
       <div>
      
-      <h2>Recent Post</h2>
+      <h3>Recent Post</h3>
       {% for post in site.posts limit:5 %}
          <article class="post">    
 		   <!-- CHoose different image -->
@@ -47,8 +46,8 @@ layout: default
 			{% else %}
 			  
 			{% endif %}
-			  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-			  {{ post.date}}		  
+			  <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+			  <br>{{ post.date | date: '%B %d, %Y'}}	<br>	  
 			  <a href="{{ site.baseurl }}{{ post.url }}" >Read More</a>
          </article>
       {% endfor %}
