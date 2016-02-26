@@ -293,6 +293,32 @@ footer {
   text-align: center;
 }
 
+// index.html
+#main_container{
+	position: relative;
+   background-color: #000001;
+}
+#posts_container{
+	width: 65%;
+	left: 0px;
+   background-color: #000012;
+}
+#right_bar{
+	width: 30%;
+	right: 0px;
+   background-color: #000017;
+}
+#twitter{
+
+}
+
+#blog { 
+    //background-color: #000000;
+}
+#projects { 
+    //background-color: #000000;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
