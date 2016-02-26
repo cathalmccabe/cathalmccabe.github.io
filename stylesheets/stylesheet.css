@@ -243,3 +243,29 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+    
+    
+    
+// index.html
+#main_container{
+	width: 70%;
+	position: relative;
+}
+#posts_container{
+	width: 30%;
+	left: 0px;
+}
+#right_bar{
+	width: 290px;
+	right: 0px;
+}
+#twitter{
+
+}
+
+#blog { 
+    //background-color: #000000;
+}
+#projects { 
+    //background-color: #000000;
+}
