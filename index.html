@@ -8,10 +8,10 @@ layout: default
 
       {% for post in site.posts %}
 		<div class="posts" id="blog">
-      {% if post.categories contains 'blog' %}
-		{% else %}
-		{% endif %}    
-		  <article class="post">    
+         {% if post.categories contains 'blog' %}
+         {% else %}
+         {% endif %}    
+		   <article class="post">    
 		   <!-- CHoose different image -->
 			{% if post.categories contains 'blog' %}
 			  <img src="{{site.baseurl}}/images/news_icon.png">
@@ -19,13 +19,14 @@ layout: default
 			  <img src="{{site.baseurl}}/images/project_icon.png">
 			{% endif %}
 			  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-		     {{ post.date | date: '%B %d, %Y'}}
+		   {{ post.date | date: '%B %d, %Y'}}
 			  
            <div id="post_thumbnail"><!-- Check if image exists-->
               <img src="{{ site.baseurl }}{{ post.image }}">
+              <img src="{{ site.baseurl }}/images/blogs/2016-02-11-bbc_zedboard.jpg">
            </div>
            <div class="entry">
-				{{ post.content | truncatewords:40}}
+		   {{ post.content | truncatewords:40}}
 			  </div>
 			  
 			  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
