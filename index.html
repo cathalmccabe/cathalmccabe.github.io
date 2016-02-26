@@ -4,7 +4,7 @@ layout: default
 <div id="main_container">
 
 	<div id="posts_container"> 
-      <h3>Posts</h3>
+      <h3>Posts </h3>
 
       {% for post in site.posts %}
 		<div class="posts" id="blog">
@@ -46,7 +46,7 @@ layout: default
       <h3>Recent Post</h3>
       {% for post in site.posts limit:5 %}
          <article class="post">    
-		   <!-- CHoose different image -->
+		   <!-- Choose different image -->
 			{% if post.categories contains 'blog' %}
 			  
 			{% else %}
