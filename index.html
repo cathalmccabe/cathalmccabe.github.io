@@ -13,11 +13,11 @@ layout: default
          {% endif %}    
 		   <article class="post">    
 		   <!-- Choose different image 
-			{% if post.categories contains 'blog' %}
+			% if post.categories contains 'blog' %}
 			  <img src="{{site.baseurl}}/images/news_icon.png">
-			{% else %}
+			% else %}
 			  <img src="{{site.baseurl}}/images/project_icon.png">
-			{% endif %}
+			% endif %}
          -->
 			  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 		   {{ post.date | date: '%B %d, %Y'}}
