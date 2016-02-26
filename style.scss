@@ -297,12 +297,12 @@ footer {
 #main_container{
 	position: relative;
    background-color: #eeeeee;
-   height: 1000px
+   width: 1000px;
+   height: 1500px;
 }
 #posts_container{
 	position:absolute;
-   top:0;
-   left:0;
+   width: 690px;
    background-color: #dddddd;
 }
 #right_bar{
