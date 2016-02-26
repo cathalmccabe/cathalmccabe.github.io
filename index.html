@@ -19,7 +19,7 @@ layout: default
 			  <img src="{{site.baseurl}}/images/project_icon.png">
 			{% endif %}
 			  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-		
+		     {{ post.date}}
 			  <div class="entry">
 				{{ post.content | truncatewords:40}}
 			  </div>
@@ -38,7 +38,7 @@ layout: default
       
       <div>
      
-      <h1>Recent Post</h1>
+      <h2>Recent Post</h2>
       {% for post in site.posts limit:5 %}
          <article class="post">    
 		   <!-- CHoose different image -->
@@ -47,9 +47,9 @@ layout: default
 			{% else %}
 			  
 			{% endif %}
-			  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-					  
-			  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+			  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+			  {{ post.date}}		  
+			  <a href="{{ site.baseurl }}{{ post.url }}" >Read More</a>
          </article>
       {% endfor %}
 
