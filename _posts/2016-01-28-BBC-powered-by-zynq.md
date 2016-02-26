@@ -2,7 +2,12 @@
 layout: post
 category: blog
 title: Xilinx Zynq powering BBC radio data encoding
-tags: Xilinx, Zynq, SOC, FPGA, Zedboard
+tags: 
+- Xilinx
+- Zynq
+- SOC
+- FPGA
+- Zedboard
 ---
 
 Being a commuter, I listen to my radio for almost 2 hours, 5 days a week. While sometimes I plug in my phone and listen to an audiobook, or podcast, the majority of the time I spend listening to the good *old-fashioned* FM radio channels. 
