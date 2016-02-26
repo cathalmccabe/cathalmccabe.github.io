@@ -31,14 +31,28 @@ layout: default
    </div>
    <div id="right_bar">
       <div>
-      <h1>Tag Cloud</h1>
+      <h1><!--Search By Tags--></h1>
       {% include post-tags.html %}
 
       </div>
       
       <div>
-      Recent posts
-      <br>
+     
+      <h1>Recent Post</h1>
+      {% for post in site.posts limit:5 %}
+         <article class="post">    
+		   <!-- CHoose different image -->
+			{% if post.categories contains 'blog' %}
+			  
+			{% else %}
+			  
+			{% endif %}
+			  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+					  
+			  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+         </article>
+      {% endfor %}
+
       </div>
       
       <div id="twitter">
