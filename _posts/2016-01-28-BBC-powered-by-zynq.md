@@ -2,6 +2,7 @@
 layout: post
 category: blog
 title: Xilinx Zynq powering BBC radio data encoding
+tags: Xilinx, Zynq, SOC, FPGA, Zedboard
 ---
 
 Being a commuter, I listen to my radio for almost 2 hours, 5 days a week. While sometimes I plug in my phone and listen to an audiobook, or podcast, the majority of the time I spend listening to the good *old-fashioned* FM radio channels. 
@@ -13,5 +14,4 @@ Have you ever considered what happens behind the scenes to delivery data directl
 The BBC in the UK have provided some insight into some of the signals and systems that provide this service and how they recently upgraded their existing hardware, which dated back to 1983 to the Xilinx Zynq based Zedboard.
 [BBC Radio Data encoding upgraded to Zynq](http://www.bbc.co.uk/rd/blog/2016-01-35-million-people-didnt-notice-a-thing-dot-dot-dot) on GitHub.
 
-Tags:
-Xilinx, Zynq, SOC, FPGA, Zedboard
+

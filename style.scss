@@ -281,12 +281,25 @@ nav {
     height: 50px;
   }
 }
+
+// index.html
+#main_container{
+	width: 1000px;
+}
+#posts_container{
+	width: 700px;
+}
+#twitter{
+	width: 300px;
+}
+
 #blog { 
-    background-color: #aaaaaa;
+    background-color: #000000;
 }
 #projects { 
-    background-color: #777777;
+    background-color: #000000;
 }
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
