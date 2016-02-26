@@ -296,21 +296,28 @@ footer {
 // index.html
 #main_container{
 	position: relative;
-   background-color: #eeeeee;
+   margin: auto;
+   background-color: #fefefe;
    width: 1000px;
    height: 1500px;
 }
 #posts_container{
 	position:absolute;
    width: 690px;
-   background-color: #dddddd;
+   background-color: #f7f7f7;
+   padding: 5px;
+   border: 2px solid gray;
+   margin: 5; 
 }
 #right_bar{
    position:absolute;
    top:0;
 	right: 0;
 	width: 290px;
-   background-color: #aaaaaa;
+   background-color: #f7f7f7;
+   padding: 5px;
+   border: 2px solid gray;
+   margin: 5; 
 }
 #twitter{
 
