@@ -2,7 +2,7 @@
 layout: post
 category: blog
 title: Xilinx Zynq powering BBC radio data encoding
-image: images/blogs/2016-02-11-bbc_zedboard.jpg
+image: /images/blogs/2016-02-11-bbc_zedboard.jpg
 tags: 
 - BBC
 - Zynq
@@ -17,7 +17,8 @@ Apparenlty about 50% of millennials in the US listen to an average of 11 hrs of 
 Have you ever considered what happens behind the scenes to delivery data directly to your car?
 
 The BBC in the UK have provided some insight into some of the signals and systems that provide this service and how they recently upgraded their existing hardware, which dated back to 1983 to the Xilinx Zynq based Zedboard.
-[logo]: {{ site.baseurl }}/images/blogs/2016-02-11-bbc_zedboard.jpg "BBC Zedboard System"
+![BBC Zedboard]({{ site.baseurl }}/images/blogs/2016-02-11-bbc_zedboard.jpg) 
+
 [BBC Radio Data encoding upgraded to Zynq](http://www.bbc.co.uk/rd/blog/2016-01-35-million-people-didnt-notice-a-thing-dot-dot-dot) on GitHub.
 
 
