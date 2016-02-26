@@ -276,10 +276,6 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
-  img{
-    width: 50px;
-    height: 50px;
-  }
 }
 .wrapper-footer {
   margin-top: 50px;
@@ -355,7 +351,12 @@ footer {
 .post-tags {
   text-align: right;
 }
-
+.posts thumbnail{
+  img{
+    width: 150px;
+    //height: ;
+  }
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

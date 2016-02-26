@@ -21,7 +21,7 @@ layout: default
 			  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 		   {{ post.date | date: '%B %d, %Y'}}
 			
-         {% if post.image != '' %}  <!-- Check if image exists-->
+         {% if post.image != '' or if post.image != nill %}  <!-- Check if image exists-->
            <div id="post_thumbnail">
               <img src="{{ site.baseurl }}{{ post.image }}">
            </div>
