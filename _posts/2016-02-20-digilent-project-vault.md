@@ -2,7 +2,7 @@
 layout: post
 category: blog
 title: Digilent Project Vault
-image: /images/blogs/n4_video_hdmi.jpg
+image: /images/blogs/2016-02-20-digilent_vault.jpg
 tags:
 - Artix
 - Video Processing
