@@ -19,14 +19,15 @@ layout: default
          -->
 			  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 		   {{ post.date | date: '%B %d, %Y'}}
-			
-         <div id="thumbnail">
-         {% if post.image != '' or if post.image != nill %}  <!-- Check if image exists--> 
-              <img src="{{ site.baseurl }}{{ post.image }}">
-         {% endif %}
-
-		   {{ post.content | truncatewords:40}}
-			  
+			<div>
+            <div id="thumbnail">
+            {% if post.image != '' or if post.image != nill %}  <!-- Check if image exists--> 
+                 <img src="{{ site.baseurl }}{{ post.image }}">
+            {% endif %}
+            <div id="text">
+            {{ post.content | truncatewords:40}}
+            </div>
+         </div>
 			  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 		  </article>
         </div>  
