@@ -350,14 +350,18 @@ footer {
 .post-tags {
   text-align: right;
 }
+// Index.html; post summary formatting
 #thumbnail img{
     width: 200px;
+    height: 100%;
     margin: 5px;
     float: left;
 }
 #post-text {
     padding: 5px;
-    #float: right;
+}
+#read-more{
+    padding: 5px;
 }
 
 .posts #entry{
@@ -365,6 +369,7 @@ footer {
     border: 5px;
     float: left;
 }
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

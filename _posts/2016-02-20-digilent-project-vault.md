@@ -14,7 +14,7 @@ Looking for some inspiration for your next FPGA project, or do you want to showc
 Check out the Digilent project vault:
 https://forum.digilentinc.com/forum/16-project-vault/
  
-The valut includes tutorials, guides, and projects from students, teachers, and hobbyist FPGA designers, with controbutions from Digilent.
+The vault includes tutorials, guides, and projects from students, teachers, and hobbyist FPGA designers, with controbutions from Digilent.
  
 Projects include stepper motor controllers, audio processing on Zynq, retro games (Tic-Tac-Toe, colour invaders), a HDL Fractal generator, data logging from FPGA to PC, an LED cube controller and many more.
 
