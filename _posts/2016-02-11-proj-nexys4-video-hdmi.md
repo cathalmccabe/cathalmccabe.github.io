@@ -1,6 +1,6 @@
 ---
 layout: post
-category: blog
+category: project
 title: Video processing on the Digilent Nexys Video
 image: /images/blogs/n4_video_hdmi.jpg
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: blog
+category: project
 title: Digilent Project Vault
 image: /images/blogs/2016-02-20-digilent_vault.jpg
 tags:
