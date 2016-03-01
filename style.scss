@@ -369,11 +369,18 @@ footer {
     padding: 5px;
 }
 .rows div div{
-    width: 290px;
+    width: 280px;
     background-color: #e0e0e0;
     margin: 5px;
     padding: 5px;
 }
+.rows div div div{
+    width: 260px;
+    background-color: #e0e0e0;
+    margin: 5px;
+    padding: 5px;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
