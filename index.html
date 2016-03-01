@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div id="main_container">
+<div id="main_container" style="background-color= 0xfefefe">
 
 	<div id="posts_container"> 
       {% for post in site.posts %}
@@ -30,12 +30,14 @@ layout: default
             {{ post.content | truncatewords:40}}
             </div>
          </div>
+         <div id="read-more">
 			  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+         </div>
 		  </article>
         </div>  
       {% endfor %}
    </div>
-   <div id="right_bar">
+   <div class="right_bar">
       <!--<div>
          <h1>Search By Tags</h1>
          {% include post-tags.html %}
@@ -60,7 +62,7 @@ layout: default
 
       </div>
       
-      <div id="twitter">
+      <div class="twitter">
          <a class="twitter-timeline" href="https://twitter.com/cathalmccabe" data-widget-id="694546693484875776">Tweets by @cathalmccabe</a>
          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
      </div>
