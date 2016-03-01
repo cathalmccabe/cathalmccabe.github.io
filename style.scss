@@ -358,11 +358,15 @@ footer {
     float: left;
 }
 
+/*********************/
 // training.html
+/*********************/
 .rows div{
     width: 33%;
-    background-color: #fefefe;
+    background-color: #f0f0f0;
     float: left;
+    margin: 5px;
+    padding: 5px;
 }
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

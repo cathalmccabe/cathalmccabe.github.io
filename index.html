@@ -16,7 +16,7 @@ layout: default
 			  <img src="{{site.baseurl}}/images/project_icon.png">
 			% endif %}
          -->
-			  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+			  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 		   {{ post.date | date: '%B %d, %Y'}}
 			<div>
             {% if post.image != null %}  <!-- Check if image exists--> 
@@ -38,7 +38,7 @@ layout: default
    </div>
    <div class="right_bar">
       <!--<div>
-         <h1>Search By Tags</h1>
+         <h2>Search By Tags</h2>
          {% include post-tags.html %}
       </div>-->
       
