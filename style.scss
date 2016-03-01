@@ -380,12 +380,12 @@ footer {
     margin: 5px;
     padding: 5px;
 }
-/*#workshop-list{
+#workshop-list{
    list-style-type:none; 
    text-align:center; 
-   {li { background: #f0f0f0; }}
-   {li:nth-child(odd) { background: fefefe; }}
-}*/
+   /*{li { background: #f0f0f0; }}
+   {li:nth-child(odd) { background: fefefe; }}*/
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
