@@ -382,9 +382,9 @@ footer {
 }
 #workshop-list{
    list-style-type:none; 
-   text-align:center; 
-   /*{li { background: #f0f0f0; }}
-   {li:nth-child(odd) { background: fefefe; }}*/
+   //text-align:center; 
+   li { background: #f0f0f0; }
+   li:nth-child(odd) { background: fefefe; }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
