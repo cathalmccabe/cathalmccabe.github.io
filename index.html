@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<div id="main_container">
+<div class="main_container">
 
-	<div id="posts_container"> 
+	<div class="posts_container"> 
       {% for post in site.posts %}
-		<div class="posts" id="blog">
+		<div class="posts" >
          {% if post.categories contains 'blog' %}
          {% else %}
          {% endif %}    
@@ -21,16 +21,16 @@ layout: default
 		   {{ post.date | date: '%B %d, %Y'}}
 			<div>
             {% if post.image != null %}  <!-- Check if image exists--> 
-            <div id="thumbnail">
+            <div class="thumbnail">
             
                  <img src="{{ site.baseurl }}{{ post.image }}">
             </div>
             {% endif %}
-            <div id="post-text">
+            <div class="post-text">
             {{ post.content | truncatewords:40}}
             </div>
          </div>
-         <div id="read-more">
+         <div class="read-more">
 			  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
          </div>
 		  </article>
