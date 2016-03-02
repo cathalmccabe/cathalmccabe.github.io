@@ -408,14 +408,18 @@ footer {
 .training-col{
    float: left;
    width: 150px;
-   margin: 2px;
+   margin-top: 0px;
+   margin-left: 2px;
+   margin-right: 2px;
+   margin-bottom: 0px;
    padding: 2px;
    background-color: #f7f7f7;
    border: 1px solid gray;
-     margin-bottom: -99999px;
-  padding-bottom: 99999px;
-
+   margin-bottom: -99999px;
+   padding-bottom: 99999px;
+   text-align: center;
 }
+
 .training-info{
    float: left;
    width: 180px;
