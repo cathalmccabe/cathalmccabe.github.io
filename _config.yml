@@ -21,7 +21,7 @@ footer-links:
   email: xup@xilinx.com
   facebook:
   flickr:
-  github: www.github.com/xupgit
+  github: xupgit
   instagram:
   linkedin:
   pinterest:
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: www.xilinx.com/university
+url: 
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
