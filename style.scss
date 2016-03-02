@@ -437,6 +437,30 @@ footer {
 
 }
 
+.resources-left{
+   float: left;
+   width: 600px;
+   padding: 2px;
+   background-color: #ffffff;
+   margin-top: 2px;
+   margin-left: 2px;
+   margin-right: 2px;
+   margin-bottom: 2px;
+   font-size: 12px;
+
+}.resources-right{
+   float: left;
+   width: 390px;
+   padding: 2px;
+   background-color: #ffffff;
+   margin-top: 2px;
+   margin-left: 2px;
+   margin-right: 2px;
+   margin-bottom: 2px;
+   font-size: 12px;
+
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
