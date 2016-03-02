@@ -394,6 +394,7 @@ footer {
    padding: 0px;
 }
 
+
 .youtube-training iframe{
    //height: ;
    width: 150px;
@@ -407,7 +408,7 @@ footer {
    border: 1px solid gray;
 }
 .training-col{
-   float: left
+   float: left;
    width: 150px;
    margin: 2px;
    padding: 2px;
@@ -415,6 +416,7 @@ footer {
    border: 1px solid gray;
 
 }
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
