@@ -2,42 +2,31 @@
 layout: page
 ---
 <div class="main_container">
-   <div class="posts_container"> 
-     {% for post in site.posts %}
+   	<div class="posts_container"> 
+      {% for post in site.posts %}
        {% if post.categories contains 'project' %}
-       <div class="posts" id="blog">
-         <article class="post">    
-           
-           <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-     
-           <div class="entry">
-             {{ post.content | truncatewords:40}}
-           </div>
-           
-           <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-         </article>
+		<div class="posts" >
+		   <article class="post">    
+			  <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+		   {{ post.date | date: '%B %d, %Y'}}
+			<div>
+            {% if post.image != null %}  <!-- Check if image exists--> 
+            <div class="thumbnail">
+            
+                 <img src="{{ site.baseurl }}{{ post.image }}">
+            </div>
+            {% endif %}
+            <div class="post-text">
+            {{ post.content | truncatewords:40}}
+            </div>
+         </div> 
+         <div class="read-more">
+			  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
          </div>
-         {% endif %}
-     {% endfor %}
+		  </article>
+        </div>  
+      {% endfor %}
    </div>
    
-   <div class="posts_container">    
-     {% for post in site.posts %}
-       {% if post.categories contains 'blog' %}
-         <div class="posts" id="blog">
-         <article class="post">    
-           
-           <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-     
-           <div class="entry">
-             {{ post.content | truncatewords:40}}
-           </div>
-           
-           <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-         </article>
-         </div>
-         {% endif %}
-     {% endfor %}
-   </div>
 </div>
 
