@@ -396,18 +396,25 @@ footer {
 
 
 .youtube-training iframe{
-   //height: ;
    width: 140px;
 }
 .training-rows{
    width: 1000px;
-   margin: 0px; 
    background-color: #f0f0f0;
    border: 1px solid gray;
 }
 .training-col{
    float: left;
    width: 150px;
+   margin: 2px;
+   padding: 2px;
+   background-color: #f7f7f7;
+   border: 1px solid gray;
+
+}
+.training-info{
+   float: left;
+   width: 200px;
    margin: 2px;
    padding: 2px;
    background-color: #f7f7f7;
