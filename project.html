@@ -1,8 +1,8 @@
 ---
 layout: page
 ---
-<div id="main_container">
-   
+<div class="main_container">
+   <div class="posts_container"> 
      {% for post in site.posts %}
        {% if post.categories contains 'project' %}
        <div class="posts" id="blog">
@@ -19,9 +19,9 @@ layout: page
          </div>
          {% endif %}
      {% endfor %}
-
+   </div>
    
-      
+   <div class="posts_container">    
      {% for post in site.posts %}
        {% if post.categories contains 'blog' %}
          <div class="posts" id="blog">
@@ -38,6 +38,6 @@ layout: page
          </div>
          {% endif %}
      {% endfor %}
-   
+   </div>
 </div>
 
