@@ -57,7 +57,7 @@ h1 {
   }
 }
 
-h3 {
+h2 {
   font-size: 24px;
 }
 
@@ -396,8 +396,8 @@ footer {
 
 
 .youtube-training iframe{
-   width: 140px;
-   height: 120px;
+   width: 120px;
+   height: 100px;
 }
 .training-rows{
    width: 1000px;
@@ -419,10 +419,17 @@ footer {
    padding-bottom: 99999px;
    text-align: center;
 }
+.training-col h3{
+  font-size: 14px;
+}
+.training-col h3{
+  font-size: 12px;
+}
+
 
 .training-info{
    float: left;
-   width: 180px;
+   width: 160px;
    margin: 2px;
    padding: 2px;
    background-color: #f7f7f7;
