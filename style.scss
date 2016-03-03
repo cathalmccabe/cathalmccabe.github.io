@@ -394,16 +394,12 @@ footer {
 /*********************/
 // vivado_training.html
 /*********************/
-.youtube-training iframe{
-   width: 120px;
-   height: 100px;
-}
 .training-rows{
    width: 1000px;
    overflow: hidden;
-   background-color: #f0f0f0;
+   background-color: #ffffff;
 }
-.training-col{
+.training-cols{
    float: left;
    width: 150px;
    margin-top: 0px;
@@ -411,12 +407,15 @@ footer {
    margin-right: 2px;
    margin-bottom: 0px;
    padding: 2px;
-   background-color: #f7f7f7;
+   background-color: #f0f0f0;
    margin-bottom: -99999px;
    padding-bottom: 99999px;
 }
+
 .training-rows h2{
-   background-color: #F0F0F0;
+   background-color: #e0e0e0;
+   width: 100%;
+   height: 2em;
    text-align: center;
 }
 .training-rows h3{
@@ -437,6 +436,14 @@ footer {
    margin-bottom: 0px;
    font-size: 12px;
 
+}
+.guides{
+   height:2em;
+}
+
+.youtube-training iframe{
+   width: 120px;
+   height: 100px;
 }
 
 .resources-left{
