@@ -366,9 +366,9 @@ footer {
     padding: 5px;
 }
 .cols h2{
-   background-color: #7070707;
+   background-color: #000000;
    width: 100%
-   height: 4em;
+   height: 2em;
    text-align: center;
 }
 .cols div{
@@ -386,8 +386,8 @@ footer {
 #workshop-list{
    list-style-type:none; 
    //text-align:center; 
-   li { background: #ffffff; }
-   li:nth-child(odd) { background: f7f7f7; }
+   li { background: #f0f0f0; }
+   li:nth-child(odd) { background: ffffff; }
    margin: 0px;
    padding: 0px;
 }
