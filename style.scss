@@ -413,7 +413,7 @@ footer {
    font-size: 14px;
 }
 
-.training-rows h2{
+.training-rows h3{
    background-color: #e0e0e0;
    width: 100%;
    text-align: center;
@@ -442,9 +442,10 @@ footer {
    font-size: 14px;
 }
 
-.youtube-training iframe{
+.youtube-training {
    width: 120px;
-   height: 100px;
+   height: 100px;   
+   text-align: center;
 }
 /*********************/
 // resources.html
