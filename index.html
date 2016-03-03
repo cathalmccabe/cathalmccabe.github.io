@@ -9,7 +9,7 @@ layout: default
          {% else %}
          {% endif %}    
 		   <article class="post">    
-		   <!-- Choose different image based on blog/project
+		   <!-- Choose different icon based on blog/project
 			% if post.categories contains 'blog' %}
 			  <img src="{{site.baseurl}}/images/news_icon.png">
 			% else %}
@@ -21,17 +21,13 @@ layout: default
 			<div>
             {% if post.image != null %}  <!-- Check if image exists--> 
             <div class="thumbnail">
-            
                  <img src="{{ site.baseurl }}{{ post.image }}">
             </div>
             {% endif %}
             <div class="post-text">
-            {{ post.content | truncatewords:40}}
+            {{ post.content | truncatewords:40}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
             </div>
          </div> 
-         <div class="read-more">
-			  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-         </div>
 		  </article>
         </div>  
       {% endfor %}
@@ -47,15 +43,8 @@ layout: default
       <h3>Recent Post</h3>
       {% for post in site.posts limit:5 %}
          <article class="post">    
-		   <!-- Choose different image -->
-			{% if post.categories contains 'blog' %}
-			  
-			{% else %}
-			  
-			{% endif %}
 			  <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-			  {{ post.date | date: '%B %d, %Y'}}	<br>	  
-			  <a href="{{ site.baseurl }}{{ post.url }}" >Read More</a>
+			  {{ post.date | date: '%B %d, %Y'}}	
          </article>
       {% endfor %}
       </div>
@@ -65,7 +54,7 @@ layout: default
          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
      </div>
      
-	  <div>Calender
+	  <div><h4>Calender<h4>
 	  </div>
 	</div>
 </div>
