@@ -390,13 +390,16 @@ footer {
 }
 #workshop-list{
    list-style-type:none; 
-   //text-align:center; 
-   li { background: #ffffff; }
-   li:nth-child(odd) { background: f7f7f7; }
    margin: 0px;
    padding: 0px;
 }
 
+#odd {
+   background: fafafa;
+}
+#even{
+   background: fcfcfc;
+}
 /*********************/
 // vivado_training.html
 /*********************/
