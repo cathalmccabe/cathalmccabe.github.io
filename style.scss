@@ -294,7 +294,6 @@ footer {
 .main_container{
 	position: relative;
    margin: auto;
-   background-color: #f0f0f0;
    width: 1000px;
 }
 .posts_container{
@@ -368,7 +367,9 @@ footer {
     width: 300px;
     background-color: #ffffff;
     float: left;
-    margin: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
     padding: 2px;
 }
 .cols h2{
@@ -448,7 +449,7 @@ footer {
 }
 
 .youtube-training {
-   height: 140px;
+   //height: 140px;
    
    text-align: center;
 }
