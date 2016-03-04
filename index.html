@@ -8,18 +8,11 @@ layout: default
          {% if post.categories contains 'blog' %}
          {% else %}
          {% endif %}    
-		   <article class="post">    
-		   <!-- Choose different icon based on blog/project
-			% if post.categories contains 'blog' %}
-			  <img src="{{site.baseurl}}/images/news_icon.png">
-			% else %}
-			  <img src="{{site.baseurl}}/images/project_icon.png">
-			% endif %}
-         -->
+		   <!--<article class="post"> -->   
 			  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 		   {{ post.date | date: '%B %d, %Y'}}
 			<div>
-            {% if post.image != null %}  <!-- Check if image exists--> 
+            {% if post.image != null %}  
             <div class="thumbnail">
                  <img src="{{ site.baseurl }}{{ post.image }}">
             </div>
@@ -28,7 +21,7 @@ layout: default
             {{ post.content | truncatewords:40}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
             </div>
          </div> 
-		  </article>
+		  <!--</article>-->
         </div>  
       {% endfor %}
    </div>
