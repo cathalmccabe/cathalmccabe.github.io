@@ -8,15 +8,12 @@ permalink: /books/
 Available as hardcopy, or free eBook.
 The Zynq Book is the first book about Zynq to be written in the English language. We wanted to create an accessible, readable book that would benefit people just starting out with Zynq, and engineers already working with Zynq. We hope that it will prove a handy reference that remains on your desktop!
 
-www.zynqbook.com
+<http://www.zynqbook.com>
 
 ### The MicroZed Chronicles
-Available as eBook
+Collection of blog posts by Adam Taylor on working with Zynq. Practical, hands-on guide to working with Zynq. Available as eBook.
 
 <http://adiuvoengineering.com/?page_id=285>
-
-
-
 
 ### VHDL Made Easy
 Intended for both hardware and sofware designers interested in learning VHDL.HDL (Hardware Description Languages) expertise is a critical, distinguishing skill that is essential to a successful career as an electronics designer.
@@ -29,9 +26,8 @@ This book provides a rich toolbox of design techniques and templates to solve pr
 
 ### 100 Power Tips For FPGA Designers
 This book is a collection of short articles on various aspects of FPGA design: synthesis, simulation, porting ASIC designs, floorplanning and timing closure, design methodologies, performance, area and power optimizations, RTL coding, IP core selection, and many others. The book is intended for system architects, design engineers, and students who want to improve their FPGA design skills.
+
 <http://www.amazon.com/dp/1461186293/>
-
-
 
 ### Embedded Systems Design with Platform FPGAs: Principles and Practices
 This book will introduce professional engineers and students alike to system development using Platform FPGAs. The focus is on embedded systems but it also serves as a general guide to building custom computing systems. 
@@ -41,4 +37,5 @@ This book will introduce professional engineers and students alike to system dev
 
 ### Digital Design and computer architecture
 Digital Design and Computer Architecture takes a unique and modern approach to digital design. Beginning with digital logic gates and progressing to the design of combinational and sequential circuits, Harris and Harris use these fundamental building blocks as the basis for what follows: the design of an actual MIPS processor. 
+
 <http://store.elsevier.com/Digital-Design-and-Computer-Architecture/David-Harris/isbn-9780123944245/>
