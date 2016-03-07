@@ -40,8 +40,10 @@ layout: default
          <input type="text" id="search-input" placeholder="search...">
          <ul id="results-container"></ul>
       </div>
+      
+      
 <!-- Script pointing to jekyll-search.js -->
-<script src="{{ site.baseurl }}/jssearch/jekyll-search.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/js/jekyll-search.js" type="text/javascript"></script>
 <script type="text/javascript">
    SimpleJekyllSearch({
      searchInput: document.getElementById('search-input'),
@@ -54,6 +56,8 @@ layout: default
      exclude: ['Welcome']
    })
 </script>
+
+
       <div>
          <h3>Recent Posts</h3>
          {% for post in site.posts limit:5 %}
