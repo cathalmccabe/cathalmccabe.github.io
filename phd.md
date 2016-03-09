@@ -1,7 +1,7 @@
 ---
 layout: page
-title: FPGA Books
-permalink: /books/
+title: Guide for PhDs
+permalink: /phds/
 ---
 
 ### University Rankings
