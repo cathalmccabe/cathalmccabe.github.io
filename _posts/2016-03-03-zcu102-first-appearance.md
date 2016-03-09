@@ -2,7 +2,7 @@
 layout: post
 category: blog
 title: ZCU102 First Appearance
-image: /images/blog/2016-03-03-zcu102_first_appearance.jpg
+image: /images/blogs/2016-03-03-zcu102_first_appearance.jpg
 tags:
 - MPSOC
 - Zynq Ultrascale+
