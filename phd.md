@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Guide for PhDs
-permalink: /phds/
+permalink: /phd/
 ---
 
 ### University Rankings
