@@ -15,9 +15,10 @@ The ZCU102, the first Xilinx Zynq Ultrascale+ development board made its first a
 The board was on display at the Xilinx booth where a 4K Video Targeted Reference Design was being demonstrated. 
 
 You can see a first glimpse of the board, and reference design here: 
-Embed youtube: 
 
-<iframe  title="ZCU102" width="480" height="390" src="https://www.youtube.com/watch?v=HeXj4xw5n_A" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M1RIGVXY-KU" frameborder="0" allowfullscreen></iframe>
+
 
 The board features the first member of the Zynq Ultrascale+ family, the XU9EG device, with 600K logic cells, over 2500 DSP slices, quad-core ARM A53 processors, and MALi-400MP graphics processing unit. 
 
