@@ -500,11 +500,12 @@ footer {
 }
 .xup-workshop-list{
    list-style-type: none;
-   ul{
-      font-size: 15px;
+   padding-left:0;
+   li{
+      font-weight: bold;
    }
-   ul a{
-      font-size: 14px;
+   li a{
+      font-weight: normal;
    }
 }
 
