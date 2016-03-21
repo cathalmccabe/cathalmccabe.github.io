@@ -487,7 +487,8 @@ footer {
    margin-right: 2px;
    margin-bottom: 2px;
 
-}.resources-right{
+}
+.resources-right{
    float: left;
    width: 350px;
    padding: 2px;
@@ -496,16 +497,16 @@ footer {
    margin-left: 2px;
    margin-right: 2px;
    margin-bottom: 2px;
+}
+.xup-workshop-list{
+   list-style-type: none;
    ul{
       font-size: 15px;
-      list-style-type: none;
    }
    ul a{
       font-size: 14px;
    }
-
 }
-
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
