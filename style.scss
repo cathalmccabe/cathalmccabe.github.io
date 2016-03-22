@@ -516,7 +516,6 @@ footer {
 .xup-workshops-table {
 	margin:0px;padding:0px;
 	width:100%;
-	box-shadow: 10px 10px 5px #888888;
 	border:1px solid #000000;
 	
 }.xup-workshops-table table{
@@ -536,8 +535,6 @@ footer {
 	border-width:0px 1px 1px 0px;
 	text-align:left;
 	padding:7px;
-	font-size:10px;
-	font-family:Arial;
 	font-weight:normal;
 	color:#000000;
 }.xup-workshops-table tr:last-child td{
@@ -548,24 +545,16 @@ footer {
 	border-width:0px 0px 0px 0px;
 }
 .xup-workshops-table tr:first-child td{
-		background:-o-linear-gradient(bottom, #b2b2b2 5%, #b2b2b2 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b2b2b2), color-stop(1, #b2b2b2) );
-	background:-moz-linear-gradient( center top, #b2b2b2 5%, #b2b2b2 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#b2b2b2", endColorstr="#b2b2b2");	background: -o-linear-gradient(top,#b2b2b2,b2b2b2);
+		
 
 	background-color:#b2b2b2;
 	border:0px solid #000000;
 	text-align:center;
 	border-width:0px 0px 1px 1px;
-	font-size:14px;
-	font-family:Arial;
 	font-weight:bold;
 	color:#000000;
 }
 .xup-workshops-table tr:first-child:hover td{
-	background:-o-linear-gradient(bottom, #b2b2b2 5%, #b2b2b2 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b2b2b2), color-stop(1, #b2b2b2) );
-	background:-moz-linear-gradient( center top, #b2b2b2 5%, #b2b2b2 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#b2b2b2", endColorstr="#b2b2b2");	background: -o-linear-gradient(top,#b2b2b2,b2b2b2);
-
 	background-color:#b2b2b2;
 }
 .xup-workshops-table tr:first-child td:first-child{
