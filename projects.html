@@ -62,7 +62,7 @@ layout: page
 
       <div>
          <h3>Featured Posts</h3>
-         {% assign featuredPosts = site.posts | where: 'featured', 'true' %}
+         {% assign featuredPosts = site.posts | where: 'featured', 'yes' %}
          {% for post in featuredPosts limit:5 %} 
             <article class="post">    
               <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
