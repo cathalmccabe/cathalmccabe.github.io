@@ -6,7 +6,7 @@ layout: default
 	<div class="posts_container"> 
       {% assign blogPosts = site.posts | where: "category", "blog" %}
       {% for post in blogPosts limit:5 %}
-		<div class="recent-posts" >
+		<div class="posts" >
 		   <!--<article class="post"> -->   
 			  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 		   {{ post.date | date: '%B %d, %Y'}}
@@ -67,7 +67,7 @@ layout: default
          {% assign featuredPosts = site.posts | where: "category", "blog" %}
          {% for post in featuredPosts %}
             {% if post.featured %}   
-               <article class="post">   
+               <article class="recent-posts">   
                  <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
                  {{ post.date | date: '%B %d, %Y'}}	
                </article>
