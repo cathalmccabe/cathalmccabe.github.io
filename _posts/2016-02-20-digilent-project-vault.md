@@ -3,7 +3,7 @@ layout: post
 category: project
 title: Digilent Project Vault
 image: /images/blogs/2016-02-20-digilent_vault.jpg
-featured: yes
+featured: true
 tags:
 - Artix
 - Video Processing
