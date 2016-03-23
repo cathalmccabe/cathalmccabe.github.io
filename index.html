@@ -4,7 +4,7 @@ layout: default
       
 <div class="main_container">
 	<div class="posts_container"> 
-      {% for post in site.posts limit:5 %}
+      {% for post in site.posts | where: "category", "blog" limit:5 %}
 		<div class="posts" >
 		   <!--<article class="post"> -->   
 			  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
