@@ -62,7 +62,7 @@ layout: page
 
       <div>
          <h3>Featured Posts</h3>
-         {% assign resindex = site.posts | where: "category", "project" | where: "featured", "yes" %}
+         {% assign resindex = site.posts | where: "category", "project"  %} <!-- | where: "featured", "yes"-->
           {% for post in resindex limit:5 %} 
             <article class="post">    
               <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
