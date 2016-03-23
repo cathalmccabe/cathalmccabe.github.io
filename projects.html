@@ -7,7 +7,7 @@ layout: page
        {% for post in resindex limit:5 %}
          <div class="posts" >
             <article class="post">    
-               <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+               <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
             {{ post.date | date: '%B %d, %Y'}}
                <div>
                   {% if post.image != null %}  <!-- Check if image exists--> 
@@ -68,7 +68,7 @@ layout: page
          {% assign resindex = site.posts | where: "category", "project" %}
          {% for post in resindex %}
             {% if post.featured %}   
-               <article class="post">   
+               <article class="recent-posts">   
                  <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
                  {{ post.date | date: '%B %d, %Y'}}	
                </article>

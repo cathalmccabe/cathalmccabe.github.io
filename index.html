@@ -6,7 +6,7 @@ layout: default
 	<div class="posts_container"> 
       {% assign blogPosts = site.posts | where: "category", "blog" %}
       {% for post in blogPosts limit:5 %}
-		<div class="posts" >
+		<div class="recent-posts" >
 		   <!--<article class="post"> -->   
 			  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 		   {{ post.date | date: '%B %d, %Y'}}
