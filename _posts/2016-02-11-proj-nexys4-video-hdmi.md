@@ -3,7 +3,7 @@ layout: post
 category: project
 title: Video processing on the Digilent Nexys Video
 image: /images/blogs/n4_video_hdmi.jpg
-featured: yes
+featured: true
 tags:
 - Artix
 - Video Processing

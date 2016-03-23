@@ -3,7 +3,7 @@ layout: post
 category: tips
 title: Xilinx Vivado Hardware Software Interface (HSI) AKA Hardware Software Manager (HSM)
 image: 
-featured: 
+featured: false
 tags: 
 - HSI
 - HSM
