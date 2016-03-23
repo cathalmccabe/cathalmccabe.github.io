@@ -60,14 +60,22 @@ layout: default
 
       <div class="recent-posts">
          <h3>Featured Posts</h3>
-         {% assign resindex = site.posts | where: "category", "project" | where: "featured", "yes"  %}
-         {% for post in resindex limit:5 %}
-            <article class="post">    
-              <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-              {{ post.date | date: '%B %d, %Y'}}	
-            </article>
-            {% if forloop.last == false %} 
-            <hr>
+         {% assign maxPost = 5 %}
+         {% assign counter = 0 %}
+         <!--{% assign featuredPosts = site.posts | where: 'featured', 'true' | where: 'category', 'project' %}-->
+         {% assign resindex = site.posts | where: "category", "blog" %}
+         {% for post in resindex %}
+            {% if post.featured %}   
+               <article class="post">   
+                 <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+                 {{ post.date | date: '%B %d, %Y'}}	
+               </article>
+               {% assign counter = counter | plus: 1 %}
+               {% if counter == maxPost %}
+                  {% break %} {% comment %}exit the for loop{% endcomment %}
+               {% else %}
+               <hr>
+               {% endif %}               
             {% endif %}
          {% endfor %}
       </div>
