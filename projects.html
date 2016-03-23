@@ -3,8 +3,8 @@ layout: page
 ---
 <div class="main_container">
    <div class="posts_container"> 
-      {% for post in site.posts %}
-         {% if post.categories contains 'project' %}
+      {% assign resindex = site.posts | where: "category", "project" %}
+       {% for post in resindex limit:5 %}
          <div class="posts" >
             <article class="post">    
                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -25,7 +25,6 @@ layout: page
                </div>
             </article>
          </div>  
-         {% endif %}
       {% endfor %}
    </div>
    
@@ -63,17 +62,16 @@ layout: page
 
       <div>
          <h3>Features Posts</h3>
-         {% if post.categories contains 'project' %}
-            {% for post in site.posts limit:5 %}
-               <article class="post">    
-                 <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-                 {{ post.date | date: '%B %d, %Y'}}	
-               </article>
-               {% if forloop.last == false %} 
-               <hr>
-               {% endif %}
-            {% endfor %}
-         {% endif%}
+         {% assign resindex = site.posts | where: "category", "project" %}
+          {% for post in resindex limit:5 %} 
+            <article class="post">    
+              <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+              {{ post.date | date: '%B %d, %Y'}}	
+            </article>
+            {% if forloop.last == false %} 
+            <hr>
+            {% endif %}
+         {% endfor %}
       </div>
       
       <div>

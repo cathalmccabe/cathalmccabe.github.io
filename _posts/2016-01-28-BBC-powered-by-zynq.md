@@ -3,11 +3,13 @@ layout: post
 category: blog
 title: Xilinx Zynq powering BBC radio data encoding
 image: /images/blogs/2016-02-11-bbc_zedboard.jpg
+featured: yes
 tags: 
 - BBC
 - Zynq
 - Zedboard
 - Audio Processing
+- Featured
 ---
 
 Zynq at the BBC!

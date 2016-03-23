@@ -4,11 +4,8 @@ layout: default
       
 <div class="main_container">
 	<div class="posts_container"> 
-      {% for post in site.posts %}
+      {% for post in site.posts limit:5 %}
 		<div class="posts" >
-         {% if post.categories contains 'blog' %}
-         {% else %}
-         {% endif %}    
 		   <!--<article class="post"> -->   
 			  <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 		   {{ post.date | date: '%B %d, %Y'}}
@@ -22,9 +19,11 @@ layout: default
             {{ post.content | truncatewords:40}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
             </div>
          </div> 
-		  <!--</article>-->
-        <hr>
-        </div>  
+         <!--</article>-->
+         {% if forloop.last == false %} 
+         <hr>
+         {% endif %}
+         </div>  
       {% endfor %}
    </div>
    
@@ -43,7 +42,7 @@ layout: default
       </div>
       
       
-      <!-- JS SEARCH From here: https://github.com/christian-fei/Simple-Jekyll-Search -->
+      <!-- JS SEARCH from: https://github.com/christian-fei/Simple-Jekyll-Search -->
       <script src="{{ site.baseurl }}/js/jekyll-search.js" type="text/javascript"></script>
       
       <script type="text/javascript">
@@ -60,8 +59,9 @@ layout: default
       </script> 
 
       <div class="recent-posts">
-         <h3>Recent Posts</h3>
-         {% for post in site.posts limit:5 %}
+         <h3>Featured Posts</h3>
+         {% assign resindex = site.posts | where: "category", "project" | where: "Featured", "yes"  %}
+         {% for post in resindex limit:5 %}
             <article class="post">    
               <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
               {{ post.date | date: '%B %d, %Y'}}	
