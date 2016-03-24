@@ -519,9 +519,23 @@ footer {
    margin-bottom: 2px;
 }
 
-.three_col_layout{
+.col_210{
    float: left;
-   width: 315px;
+   width: 200px;
+   padding: 5px;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+.col_300{
+   float: left;
+   width: 290px;
+   padding: 5px;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+.col_470{
+   float: left;
+   width: 460px;
    padding: 5px;
    margin-left: 5px;
    margin-right: 5px;
