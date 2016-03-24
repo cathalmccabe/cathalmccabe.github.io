@@ -602,6 +602,26 @@ footer {
 }
 .xup-workshops-table tr .title{background-color:#2B689C; color:white;}
 
+.tg  {border-collapse:collapse;border-spacing:0;width: 100%;}
+.tg td{padding:10px;border-width:1px; word-break:normal;}
+.tg th{padding:10px;border-width:1px; word-break:normal;}
+.tg .shaded{background-color:#E2DFDF;}
+.tg .white{background-color:#FFFFFF;}
+.tg .title{background-color:#2B689C; color:white;}
+.heading {font-family: nimbus-sans-tw01con,sans-serif; font-size:25px; color: #030303;}
+
+a:link {
+    color: #0087CB;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #2B689C;
+	text-decoration: underline;
+}
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
