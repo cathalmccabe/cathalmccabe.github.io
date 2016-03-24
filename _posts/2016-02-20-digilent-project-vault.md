@@ -12,17 +12,13 @@ tags:
 
 
 Looking for some inspiration for your next FPGA project, or do you want to showcase your own work?
-Check out the Digilent project vault:
-
-[Digilent Project Vault](https://forum.digilentinc.com/forum/16-project-vault/)
-
-![Digilent Project Vault - LED Color invaders]({{ site.baseurl }}/images/blogs/2016-02-20-digilent_vault.jpg) 
  
-The vault includes tutorials, guides, and projects from students, teachers, and hobbyist FPGA designers, with controbutions from Digilent.
+The Digilent Project vault includes tutorials, guides, and projects from students, teachers, and hobbyist FPGA designers, with controbutions from Digilent.
+[Digilent Project Vault](https://forum.digilentinc.com/forum/16-project-vault/)
  
 Projects include stepper motor controllers, audio processing on Zynq, retro games (Tic-Tac-Toe, colour invaders), a HDL Fractal generator, data logging from FPGA to PC, an LED cube controller and many more.
 
-<iframe  title="" width="480" height="390" src="https://youtu.be/vrqmQA2MnSs" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vrqmQA2MnSs" frameborder="0" allowfullscreen></iframe>
 
 Colour invaders is a fun game to play with an LED strip. You have a stream of invaders of a variety of colours marching up the LED strip. You need to match the colour of your missile (fired from the other end of the strip) to the color of the first invader:
  
