@@ -1,7 +1,7 @@
 ---
 layout: post
 category: blog
-title: FPL 25th Anniversary signigicant papers
+title: FPL 25th Anniversary significant papers
 image: /images/blogs/2016-02-05_fpl.jpg
 featured: false
 tags:

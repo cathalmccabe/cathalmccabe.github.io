@@ -8,9 +8,9 @@ permalink: /phd/
 
 Find out how different universities rank based on different criteria:
  
-[The Time Higher](www.timeshighereducation.com/world-university-rankings) University Rankings
+[The Time Higher](http://www.timeshighereducation.com/world-university-rankings) University Rankings
  
-[Top Universities](www.topuniversities.com) University Rankings
+[Top Universities](http://www.topuniversities.com) University Rankings
 
 ### New PhD students
 
