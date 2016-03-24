@@ -13,7 +13,9 @@ tags:
 
 Looking for some inspiration for your next FPGA project, or do you want to showcase your own work?
 Check out the Digilent project vault:
-https://forum.digilentinc.com/forum/16-project-vault/
+
+[Digilent Project Vault](https://forum.digilentinc.com/forum/16-project-vault/)
+
 ![Digilent Project Vault - LED Color invaders]({{ site.baseurl }}/images/blogs/2016-02-20-digilent_vault.jpg) 
  
 The vault includes tutorials, guides, and projects from students, teachers, and hobbyist FPGA designers, with controbutions from Digilent.
