@@ -562,6 +562,7 @@ footer {
 	margin:0px;padding:0px;
 }
 
+
 .xup-workshops-table tr:nth-child(odd){ background-color:#e5e5e5; }
 .xup-workshops-table tr:nth-child(even)    { background-color:#ffffff; }.xup-workshops-table td{
 	vertical-align:middle;
@@ -599,7 +600,7 @@ footer {
 .xup-workshops-table tr:first-child td:last-child{
 	border-width:0px 0px 1px 1px;
 }
-
+.tg .title{background-color:#2B689C; color:white;}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
