@@ -5,7 +5,7 @@ permalink: /books/
 ---
 
 ### The Zynq Book
-![Zynq Book](images/books/zynq_book.jpg "Zynq Book")
+![Zynq Book](../images/books/zynq_book.jpg "Zynq Book")
 
 Available as hardcopy, or free eBook.
 The Zynq Book is the first book about Zynq to be written in the English language. We wanted to create an accessible, readable book that would benefit people just starting out with Zynq, and engineers already working with Zynq. We hope that it will prove a handy reference that remains on your desktop!
@@ -19,7 +19,7 @@ Collection of blog posts by Adam Taylor on working with Zynq. Practical, hands-o
 
 ### VHDL Made Easy
 
-![VHDL made easy](images/books/vhdl_made_easy.gif "VHDL made easy")
+![VHDL made easy](../images/books/vhdl_made_easy.gif "VHDL made easy")
 Intended for both hardware and sofware designers interested in learning VHDL.HDL (Hardware Description Languages) expertise is a critical, distinguishing skill that is essential to a successful career as an electronics designer.
 
 <http://www.amazon.com/VHDL-Made-Easy-David-Pellerin/dp/0136507638>
