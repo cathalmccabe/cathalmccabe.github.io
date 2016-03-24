@@ -13,6 +13,8 @@ tags:
 
 The ZCU102, the first Xilinx Zynq Ultrascale+ development board made its first appearance at Embedded World 2016 in Nuremberg. 
 
+![ZCU102]({{ site.baseurl }}/images/blogs/2016-03-03-zcu102_first_appearance.jpg) 
+
 The board was on display at the Xilinx booth where a 4K Video Targeted Reference Design was being demonstrated. 
 
 You can see a first glimpse of the board, and reference design here: 
