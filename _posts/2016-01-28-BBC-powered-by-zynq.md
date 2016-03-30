@@ -23,7 +23,7 @@ Justin Mitchell, principal engineer at BBC R&D recently shared a story about a N
 
 At the heart of the new system is a Xilinx Zynq chip carrying out data combining and splitting, 6-channel NICAM3 audio encoding and decoding, CRC insertion and checking. Zynq combines Xilinx FPGA fabric, ideal for data processing, with an ARM dual core A9 allowing higher level analytics to be run, along with a full operating system to provide high level user services and interfaces.
 
-{% include image.html url="{{ site.baseurl }}/images/blogs/2016-02-11-bbc_zedboard.jpg" description="BBC Zedboard based NICAM encoder" %}
+{% include captionimage.html url="{{ site.baseurl }}/images/blogs/2016-02-11-bbc_zedboard.jpg" description="BBC Zedboard based NICAM encoder" %}
 
 According to Justin Mitchell, principal engineer at BBC R&D "the output of these coders are listened to by about 61% of the UK population (35-40 million people) each week. When millions of people woke up and listened to the BBC national radio services, nobody noticed that anything had changed. For a technology change project this is an excellent result."
 
