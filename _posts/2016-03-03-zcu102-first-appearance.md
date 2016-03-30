@@ -23,4 +23,3 @@ You can see a first glimpse of the board running a 4K reference design here:
 
 The board features the first member of the Zynq Ultrascale+ family, the XU9EG device, with 600K logic cells, over 2500 DSP slices, quad-core ARM A53 processors, and MALi-400MP graphics processing unit. 
 
-[Zynq Ultrascale+ product table](http://www.xilinx.com/support/documentation/selection-guides/zynq-ultrascale-plus-product-selection-guide.pdf)
