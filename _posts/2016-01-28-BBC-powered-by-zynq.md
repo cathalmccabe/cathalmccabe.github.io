@@ -29,7 +29,7 @@ According to Justin Mitchell, principal engineer at BBC R&D "the output of these
 
 See here for the original story:
 
-(BBC.com: 35 million people didnt notice a thing...)[http://www.bbc.co.uk/rd/blog/2016-01-35-million-people-didnt-notice-a-thing-dot-dot-dot]
+(35 million people didnt notice a thing)[http://www.bbc.co.uk/rd/blog/2016-01-35-million-people-didnt-notice-a-thing-dot-dot-dot]
 
 
 
