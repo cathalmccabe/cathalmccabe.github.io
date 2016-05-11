@@ -622,6 +622,56 @@ a:hover {
 }
 
 
+/* Dropdown menu*/
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    #background-color: #333;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a, .dropbtn {
+    display: inline-block;
+    #color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover, .dropdown:hover .dropbtn {
+    #background-color: red;
+}
+
+.menu li.dropdown {
+    display: inline-block;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    #background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.menu a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.menu a:hover {background-color: #f1f1f1}
+
+.menu:hover .menu {
+    display: block;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
