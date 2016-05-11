@@ -644,7 +644,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: gray;
+    background-color: lightgray;
 }
 
 li.dropdown {
@@ -668,7 +668,7 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: #eeeeee}
 
 .dropdown:hover .dropdown-content {
     display: block;
