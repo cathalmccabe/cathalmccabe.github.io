@@ -628,7 +628,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #aaaaaa;
+    #background-color: #aaaaaa;
 }
 
 li {
@@ -639,12 +639,12 @@ li a, .dropbtn {
     display: inline-block;
     #color: white;
     text-align: center;
-    #padding: 14px 16px;
+    padding: 10px 10px;
     text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: $grey;
 }
 
 li.dropdown {
