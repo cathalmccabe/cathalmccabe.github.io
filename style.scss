@@ -19,7 +19,7 @@ html {
 
 body {
    background: $white;
-   font: 18px/1.4 $helvetica;
+   font: 16px/1.2 $helvetica;
    color: $darkGray;
    height: 100%;
 }
@@ -46,37 +46,37 @@ h1, h3, h3, h4, h5, h6 {
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 1.7;
-  margin: 1em 0 15px;
+  line-height: 1.6;
+  margin: 1em 0 14px;
   padding: 0;
 
   @include mobile {
-    line-height: 1.4;
+    line-height: 1.2;
   }
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 25px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
-}
-
-h3 {
   font-size: 20px;
 }
 
+h3 {
+  font-size: 18px;
+}
+
 h4 {
-  font-size: 16px;
+  font-size: 15px;
   color: $gray;
 }
 
 p {
-  margin: 15px 0;
+  margin: 14px 0;
 }
 
 a {
@@ -89,7 +89,7 @@ a {
 }
 
 ul, ol {
-  margin: 15px 0;
+  margin: 14px 0;
   padding-left: 30px;
 }
 
@@ -207,14 +207,14 @@ img {
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 24px;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 16px;
+  font-size: 15px;
 
   @include mobile {
     margin: 3px 0;
@@ -264,11 +264,11 @@ nav {
 
 .post {
   blockquote {
-    margin: 1.8em .8em;
+    margin: 1.6em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 18px;
     font-style: italic;
     background-color: 0xf00000;
   }
@@ -279,12 +279,12 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
 .recent-posts{
-   font-size: 15px
+   font-size: 14px
 }
 .wrapper-footer {
   clear: both;			
@@ -314,7 +314,7 @@ footer {
 }
 .right_bar{
    float: left;
-	width: 290px;
+   width: 290px;
    background-color: #ffffff;
    padding: 5px;
    margin: 5px; 
@@ -342,10 +342,10 @@ footer {
   list-style: none;
   padding: 0;
   text-align: justify; 
-  font-size: 16px;
+  font-size: 14px;
   li {
     display: inline-block;
-    margin: 0 12px 12px 0; 
+    margin: 0 11px 11px 0; 
   }
 }
 #archives {
@@ -405,7 +405,7 @@ footer {
     background-color: #f0f0f0;
    margin: 0px;
    padding: 0px;
-   font-size: 13px;
+   font-size: 12px;
 }
 
 .training-table td{
@@ -437,7 +437,7 @@ footer {
    background-color: #e0e0e0;
    width: 100%;
    text-align: center;
-  font-size: 16px;
+  font-size: 15px;
 }
 .training-rows h4{
 
@@ -454,7 +454,7 @@ footer {
    background-color: #f0f0f0;
    margin-bottom: -99999px;
    padding-bottom: 99999px;
-   font-size: 13px;
+   font-size: 12px;
 }
 
 .training-info{
@@ -465,7 +465,7 @@ footer {
    margin-left: 2px;
    margin-right: 2px;
    margin-bottom: 0px;
-   font-size: 13px;
+   font-size: 12px;
    background-color: #f7f7f7;
 
 }
@@ -474,18 +474,18 @@ footer {
    background-color: #ffffff;
    width: 100%;
    text-align: center;
-  font-size: 16px;
+  font-size: 14px;
 }
 .guides{
    margin: 3px;
    height: 3.8em;   
-   font-size: 12px;
+   font-size: 11px;
 }
 
 .zynq_guides{
    margin: 3px;
    height: 3.8em;   
-   font-size: 12px;
+   font-size: 11px;
 }
 
 .youtube-training {
@@ -552,7 +552,7 @@ footer {
 	margin-right:10px;padding:1px;
 	width:95%;
 	border:1px solid #000000;
-   font-size: 15px;
+   font-size: 14px;
 	
 }.xup-workshops-table table{
     border-collapse: collapse;
@@ -608,7 +608,7 @@ footer {
 .tg .shaded{background-color:#E2DFDF;}
 .tg .white{background-color:#FFFFFF;}
 .tg .title{background-color:#2B689C; color:white;}
-.heading {font-family: nimbus-sans-tw01con,sans-serif; font-size:25px; color: #030303;}
+.heading {font-family: nimbus-sans-tw01con,sans-serif; font-size:20px; color: #030303;}
 
 a:link {
     color: #0087CB;
@@ -668,7 +668,10 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #eeeeee}
+.dropdown-content a:hover {
+background-color: #eeeeee; 
+text-decoration: bold;
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
