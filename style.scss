@@ -639,12 +639,14 @@ li a, .dropbtn {
     display: inline-block;
     #color: white;
     text-align: center;
-    padding: 10px 10px;
+    width 20px;
+    padding 2px
     text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
     background-color: lightgray;
+    text-decoration: none;
 }
 
 li.dropdown {
