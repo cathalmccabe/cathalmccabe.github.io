@@ -26,12 +26,12 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
-          <nav>
+
             <ul>
-              <li><a class="active" href="{{ site.baseurl }}/">Home</a></li>
+              <li><a class="dropbtn" href="{{ site.baseurl }}/new_index">Home</a></li>
 
               <li class="dropdown">
-                Learn
+                <a class="dropbtn" href="{{ site.baseurl }}/learn">Learn</a>
                 <div class="dropdown-content">
                   <a href="{{ site.baseurl }}/books">Books</a>
                   <a href="{{ site.baseurl }}/training">Training</a>
@@ -39,7 +39,7 @@
                 </div>
               </li>
               <li class="dropdown">
-                Teach
+                <a href="{{ site.baseurl }}/teach" class="dropbtn">Teach</a>
                 <div class="dropdown-content">
                   <a href="{{ site.baseurl }}/workshops">Workshops</a>
                   <a href="{{ site.baseurl }}/courses">Courses</a>
@@ -56,7 +56,7 @@
               </li>
               
               <li class="dropdown">
-                Research
+                <a class="dropbtn" href="{{ site.baseurl }}/research">Research</a>
                 <div class="dropdown-content">
                 <a href="{{ site.baseurl }}/conferences">Conferences</a>
                 <a href="{{ site.baseurl }}/phd">PhD</a>
@@ -64,7 +64,7 @@
               </li>
               
             </ul>
-          </nav>
+
         </header>
       </div>
     </div>
