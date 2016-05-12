@@ -12,8 +12,12 @@ layout: new_default
       {% for post in blogPosts limit:5 %}
       <div class="posts" >
       <!--<article class="post"> -->   
-         <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+         <div class="post-heading"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+         <div class="post-date">
          {{ post.date | date: '%B %d, %Y'}}
+         </div>
+         <div class="social-media">
+         </div>
          <div>
             {% if post.image != null %}  
             <div class="thumbnail">
@@ -21,7 +25,7 @@ layout: new_default
             </div>
             {% endif %}
             <div class="post-text">
-            {{ post.content | truncatewords:40}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+            {{ post.content | truncatewords:30}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
             </div>
          </div> 
          <!--</article>-->
