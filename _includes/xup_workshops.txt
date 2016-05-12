@@ -1,0 +1,63 @@
+<div>
+      <p>
+         <h2>Xilinx University Program Workshops</h2> 
+         <div>
+            <div class="icon">
+               <img src="{{ site.baseurl }}/images/logos/xup_logo.jpg">
+            </div>
+            <div class="post-text">
+               <p>XUP provide <b>free workshop</b> material for universities.
+               Professors and staff can attend live workshops, and the material is available to download for self-learning. The source documents are available for teaching staff to modify/reuse in their own classes.</p>
+            </div>
+         </div>
+      </p>
+      <p>
+<!--         <table class="xup-workshops-table">-->
+         <table class="tg">
+            <tr class="title">
+               <td>
+                  FPGA/Zynq (Introdutory)
+               </td>
+               <td>
+                  Zynq (Intermediate)
+               </td>
+               <td>
+                  Advanced Topics
+               </td>
+            </tr>
+            <tr class="shaded">
+               <td>
+                  <a href="http://www.xilinx.com/support/university/vivado/vivado-workshops/Vivado-fpga-design-flow.html">FPGA Design Flow using Vivado</a>
+               </td>
+               <td>
+                  <a href="http://www.xilinx.com/support/university/vivado/vivado-workshops/Vivado-system-design-zynq.html">System Design Flow on Zynq</a>
+               </td>
+               <td>
+                  <a href="http://www.xilinx.com/support/university/vivado/vivado-workshops/Vivado-SDSoC-design-zynq.html">System Design on Zynq using SDSoC</a>                  
+               </td>
+            </tr>
+            <tr class="white">          
+               <td> 
+                  <a href="http://www.xilinx.com/support/university/vivado/vivado-workshops/Vivado-embedded-design-flow-zynq.html">Embedded System Design Flow on Zynq</a>
+               </td>
+               <td>
+                  <a href="http://www.xilinx.com/support/university/vivado/vivado-workshops/Vivado-adv-embedded-design-zynq.html">Advanced Embedded System Design on Zynq</a>   
+               </td>
+               <td>
+                  <a href="http://www.xilinx.com/support/university/vivado/vivado-workshops/Vivado-partial-reconfiguration-flow-zynq.html">Partial Reconfiguration Flow on Zynq</a>
+               </td>
+            </tr>
+            <tr class="shaded"> 
+               <td>
+                  <a href="http://www.xilinx.com/support/university/vivado/vivado-workshops/Vivado-high-level-synthesis-flow-zynq.html">High-Level Synthesis Flow on Zynq</a>
+               </td>
+               <td>
+                  <a href="http://www.xilinx.com/support/university/vivado/vivado-workshops/Vivado-embedded-tdnux-zynq.html">Embedded Linux on Zynq</a>
+               </td>
+               <td>
+               </td>
+            </tr>
+         </table>
+      </p>    
+     
+   </div>

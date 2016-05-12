@@ -1,0 +1,65 @@
+<div class="academic_projects">
+   <h3> Academic Programs and projects</h3>     
+   <table>      
+      <tr>
+         <td style="width: 30%">
+            <a href="http://www.xilinx.com/university">
+               <img src="{{ site.baseurl }}/images/logos/logo-xup-200.png">
+            </a>
+         </td> 
+         <td style="width: 5%">
+         </td>
+         <td style="width: 30%">
+            <a href="http://www.netfpga.org">
+               <img src="{{ site.baseurl }}/images/logos/netfpga.jpg">
+            </a>
+         </td>
+         <td style="width: 5%">
+         </td>
+         <td style="width: 30%">
+            <a href="https://casper.berkeley.edu/wiki/ROACH">
+               <img src="{{ site.baseurl }}/images/logos/casper.jpg">
+            </a>
+         </td>
+        
+      </tr>
+      <tr>
+         <td>          
+            <div class="post-text">
+               XUP provides free free training material and workshops for academics, and a donation program for Xilinx hardware, software and IP. 
+            </div>
+         </td>
+         <td></td>
+         <td>
+            <div class="post-text">
+               NetFPGA is an open-source research project focused on network applications. NetFPGA boards are available at a subsidized price for teaching and research.
+            </div>
+         </td>
+         <td></td>
+         <td>
+            <div class="post-text">
+               ROACH (Reconfigurable Open Architecture Computing Hardware), is an FPGA processing platform designed for the CASPER astronomy project. 
+            </div>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <a href="http://www.xilinx.com/university">
+               www.xilinx.com/university
+            </a>
+         </td>  
+         <td></td>
+         <td>
+            <a href="http://www.netfpga.org">
+               www.netfpga.org
+            </a>
+         </td>
+         <td></td>
+         <td>
+            <a href="http://casper.berkeley.edu">
+               http://casper.berkeley.edu
+            </a>
+         </td>
+      </tr>
+   </table>
+</div>

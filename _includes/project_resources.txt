@@ -1,0 +1,23 @@
+<div>
+   <h3>Project Resources</h3>
+   Free Xilinx software:
+   <a href="http://www.xilinx.com/download">www.xilinx.com/download</a>
+   <br>
+   <br>
+   <!-- Guide to getting Xilinx software -->
+   Open-source IP:
+   <br>
+   <a href="http://www.github.com">GitHub</a>
+   <br>
+   <a href="http://www.opencores.org">OpenCores</a>
+   <br>
+   <br>
+   Project sites:
+   <br>
+   <a href="http://www.instructables.com">Instructables</a>
+   <br>
+   <a href="http://www.hackaday.com">Hackaday</a>
+   <br>
+   <a href="http://www.fpga4fun.com">fpga4fun</a>
+   
+</div>
