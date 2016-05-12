@@ -13,9 +13,10 @@ layout: new_default
       {% for post in blogPosts limit:5 %}
       <div class="posts" >
       <!--<article class="post"> -->   
-         <div class="post-heading"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+         <span class="post-heading"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
          {{ post.date | date: '%B %d, %Y'}}
          {% include social-media.html %}
+         </span>
          <div>
             {% if post.image != null %}  
             <div class="thumbnail">

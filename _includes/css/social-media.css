@@ -1,6 +1,6 @@
 /* Social media buttons */
 .share-page {
-    text-align: center;
+    text-align: right;
     background: $secondary-color;
     color: $light-color;
     padding: 8px 15px;
@@ -8,8 +8,8 @@
     margin: 1.5 * $spacing-unit 0;
 
     a {
-        font-weight: 700;
-        color: #fff;
+        #font-weight: 700;
+        #color: #fff;
         margin-left: 10px;
 
         &:hover {
