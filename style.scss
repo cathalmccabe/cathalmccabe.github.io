@@ -276,10 +276,11 @@ nav {
   }
 
   font-size: 16px;
+  float: left;
 }
 
 .post-date {
-
+  flaot: right;
 }
 .post {
   blockquote {
@@ -696,6 +697,11 @@ text-decoration: bold;
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.events-box {
+  width: 240px;
+  float: left;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
