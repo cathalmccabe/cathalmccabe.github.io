@@ -705,7 +705,7 @@ a:hover {
        text-decoration: bold;
    }
 
-   .dropdown:hover .dropdown-content {
+   .dropdown:hover .dropdown-content:hover {
        display: block;
    }
 }
