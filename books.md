@@ -5,26 +5,33 @@ permalink: /books/
 ---
 
 ### The Zynq Book
-![Zynq Book](../images/books/zynq_book.jpg "Zynq Book")
+![Zynq Book](../images/books/zynq_book_t.jpg "Zynq Book")
 
+The first and best introductory book for Zynq. Intended to be accessible and useful if you are starting to learn about Zynq, or if you are an experienced engineer. Hands-on examples for the Zybo and Zedboard are available as a companion book. 
+ 
 Available as hardcopy, or free eBook.
-The Zynq Book is the first book about Zynq to be written in the English language. We wanted to create an accessible, readable book that would benefit people just starting out with Zynq, and engineers already working with Zynq. We hope that it will prove a handy reference that remains on your desktop!
+
 
 <http://www.zynqbook.com>
 
 ### The MicroZed Chronicles
+![MicroZed Chronicles](../images/books/zed_chronicles_t.jpg "MicroZed Chronicles")
 Collection of blog posts by Adam Taylor on working with Zynq. Practical, hands-on guide to working with Zynq. Available as eBook.
 
 <http://adiuvoengineering.com/?page_id=285>
 
 ### VHDL Made Easy
 
-![VHDL made easy](../images/books/vhdl_made_easy.gif "VHDL made easy")
+![VHDL made easy](../images/books/vhdl_made_easy_t.gif "VHDL made easy")
+
+
 Intended for both hardware and sofware designers interested in learning VHDL.HDL (Hardware Description Languages) expertise is a critical, distinguishing skill that is essential to a successful career as an electronics designer.
 
 <http://www.amazon.com/VHDL-Made-Easy-David-Pellerin/dp/0136507638>
 
 ### Design Recipes for FPGAs: Using Verilog and VHDL
+![Design Recipes for FPGAs](../images/books/design_recipes_t.jpg "Design Recipes for FPGAs ")
+
 This book provides a rich toolbox of design techniques and templates to solve practical, every-day problems using FPGAs. Using a modular structure, it provides design techniques and templates at all levels, together with functional code, which you can easily match and apply to your application. 
 
 <http://amzn.com/0750668458>
