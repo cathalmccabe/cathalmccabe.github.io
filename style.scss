@@ -200,11 +200,6 @@ img {
     margin: 0 auto;
   }
 }
-.nav {
-  margin-left: auto;
-  margin-right: auto;
-  text-size: 20px;
-}
 
 .site-name .site-name:hover{
   margin: 0;
@@ -649,8 +644,16 @@ a:hover {
 	text-decoration: underline;
 }
 
-
+/****************/
 /* Dropdown menu*/
+.nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+  text-size: 20px;
+}
+
+
 .nav{
    ul {
        list-style-type: none;
@@ -668,7 +671,7 @@ a:hover {
        display: inline-block;
        #color: white;
        text-align: center;
-       width: 100px;
+       width: 130px;
        padding: 2px;
        text-decoration: none;
    }
@@ -688,6 +691,7 @@ a:hover {
        position: absolute;
        background-color: $white;
        #min-width: 160px;
+       margin: 2px;
        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
        z-index:9999;
    }
