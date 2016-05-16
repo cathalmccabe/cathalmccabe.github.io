@@ -22,9 +22,6 @@ Collection of blog posts by Adam Taylor on working with Zynq. Practical, hands-o
 
 ### VHDL Made Easy
 
-![VHDL made easy](../images/books/vhdl_made_easy_t.gif "VHDL made easy")
-
-
 Intended for both hardware and sofware designers interested in learning VHDL.HDL (Hardware Description Languages) expertise is a critical, distinguishing skill that is essential to a successful career as an electronics designer.
 
 <http://www.amazon.com/VHDL-Made-Easy-David-Pellerin/dp/0136507638>
