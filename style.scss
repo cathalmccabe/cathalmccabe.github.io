@@ -654,13 +654,11 @@ a:hover {
 
 
 .nav{
-   ul{
      list-style-type: none;
      margin: 0;
      padding: 0;
      overflow: hidden;
      font-size: 20px;
-   }
    
    li {
        float: left;
@@ -668,21 +666,22 @@ a:hover {
 
    li a, .dropbtn {
        display: inline-block;
+       #color: white;
        text-align: center;
-       width: 240px;
+       width: 130px;
        padding: 2px;
        text-decoration: none;
    }
 
    li a:hover, .dropdown:hover .dropbtn {
+       #background-color: lightgray;
        text-decoration: none;
        color: #2B689C;
-       display: block;
    }
 
-   #li.dropdown {
-   #    display: inline-block;
-   #}
+   li.dropdown {
+       display: inline-block;
+   }
 
    .dropdown-content {
        display: none;
@@ -701,11 +700,11 @@ a:hover {
    }
 
    .dropdown-content a:hover {
-       background-color: #eeeeee; 
-       text-decoration: bold;
+   background-color: #eeeeee; 
+   text-decoration: bold;
    }
 
-   .dropdown:hover .dropdown-content{
+   .dropdown:hover .dropdown-content {
        display: block;
    }
 }
