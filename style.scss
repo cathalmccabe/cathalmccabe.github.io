@@ -204,7 +204,11 @@ img {
 .nav {
   margin-left: auto;
   margin-right: auto;
-  text-size: 16px;
+  text-size: 20px;
+}
+
+.nav ul{
+
 }
 
 .site-name {
@@ -674,7 +678,8 @@ li a, .dropbtn {
 
 li a:hover, .dropdown:hover .dropbtn {
     #background-color: lightgray;
-    text-decoration: bold;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 li.dropdown {
