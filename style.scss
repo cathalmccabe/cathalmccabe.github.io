@@ -646,6 +646,13 @@ a:hover {
 
 /****************/
 /* Dropdown menu*/
+.nav {
+  margin-left: auto;
+  margin-right: auto;
+  text-size: 20px;
+}
+
+
 .nav{
      list-style-type: none;
      margin: 0;
@@ -655,14 +662,13 @@ a:hover {
    
    li {
        float: left;
-       text-align: center;
    }
 
    li a, .dropbtn {
        display: inline-block;
        #color: white;
        text-align: center;
-       width: 240px;
+       width: 130px;
        padding: 2px;
        text-decoration: none;
    }
