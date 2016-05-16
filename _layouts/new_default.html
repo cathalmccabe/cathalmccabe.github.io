@@ -23,10 +23,13 @@
           <!--<a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>--> 
 
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+            <h1 class="site-name"><a href="{{ site.baseurl }}/" style="margin:auto; text-decoration:none;">{{ site.name }}</a></h1>
+            <p class="site-description" style="margin:auto;">{{ site.description }}</p>
           </div>
-
+          <div>
+            {% include banner.html %}
+          </div>
+          <!--
           <div class="nav">
             <ul> 
               <li><a class="dropbtn" href="{{ site.baseurl }}/new_index">Home</a></li>
@@ -66,6 +69,7 @@
               
             </ul>
           </div>
+          -->
 
         </header>
       </div>
