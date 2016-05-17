@@ -2,31 +2,35 @@
 layout: page
 ---
 <div class="main_container">
-   <div class="posts_container"> 
-      {% assign resindex = site.posts | where: "category", "project" %}
-       {% for post in resindex limit:5 %}
-         <div class="posts" >
-            <article class="post">    
-               <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-            {{ post.date | date: '%B %d, %Y'}}
-               <div>
-                  {% if post.image != null %}  <!-- Check if image exists--> 
-                  <div class="thumbnail">
-                  
-                       <img src="{{ site.baseurl }}{{ post.image }}">
-                  </div>
-                  {% endif %}
-                  <div class="post-text">
-                  {{ post.content | truncatewords:40}}
-                  </div>
-               </div> 
-               <div class="read-more">
-                 <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-               </div>
-            </article>
+    <div class="posts_container"> 
+      {% assign blogPosts = site.posts | where: "category", "project" %}
+      {% for post in blogPosts limit:5 %}
+      <div class="posts" >
+      <!--<article class="post"> -->   
+         <span class="post-heading"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+         {{ post.date | date: '%B %d, %Y'}}
+         </span>
+         <span style="float:right;">
+           {% include social-media.html %}
+         </span>
+         <div>
+            {% if post.image != null %}  
+            <div class="thumbnail">
+                 <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image }}"></a>
+            </div>
+            {% endif %}
+            <div class="post-text">
+            {{ post.content | truncatewords:30}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
+            </div>
+            
+         </div> 
+         <!--</article>-->
+         {% if forloop.last == false %} 
+         <hr>
+         {% endif %}
          </div>  
       {% endfor %}
-   </div>
+      </div>
    
    
     <div class="right_bar">
