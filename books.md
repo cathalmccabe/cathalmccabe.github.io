@@ -16,6 +16,7 @@ Available as hardcopy, or free eBook.
 
 ### The MicroZed Chronicles
 ![MicroZed Chronicles](../images/books/zed_chronicles_t.jpg "MicroZed Chronicles")
+
 Collection of blog posts by Adam Taylor on working with Zynq. Practical, hands-on guide to working with Zynq. Available as eBook.
 
 <http://adiuvoengineering.com/?page_id=285>
