@@ -718,13 +718,7 @@ a:hover {
 
 /* New Index */
 
-.headline_boxes{
-   width: 200px;
-   float: left;
-   background-color: #ffffff;
-   padding: 5px;
-   margin: 5px; 
-}
+
 
 .headline_cols{
     width: 200px;
@@ -734,12 +728,18 @@ a:hover {
     padding: 2px;
 }
 .headline_cols h2{
-   background-color: #e0e0e0;
+   #background-color: #e0e0e0;
    width: 100%;
    height: 2em;
    text-align: center;
 }
-
+.headline_boxes{
+   width: 200px;
+   float: left;
+   background-color: #ffffff;
+   padding: 5px;
+   margin: 5px; 
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

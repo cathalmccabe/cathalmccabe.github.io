@@ -2,11 +2,11 @@
        <div class="headline_boxes"> 
          {% assign resindex = site.posts | where: "category", filter %}
          {% for post in resindex %}
-            {% if post.featured %}   
-            <div class="posts" >
-               <span class="post-heading">
+            {% if post.featured == true %}   
+            <div class="posts">
+               <h3>
                   <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-               </span>
+               </h3>
                {{ post.date | date: '%B %d, %Y'}}
                <div>
                   {% if post.image != null %}  
@@ -19,10 +19,9 @@
                      {{ post.content | truncatewords:10}} 
                      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
                   </div>
-                  
-                  <span style="float:right;">
-                     {% include social-media.html %}
-                  </span>
+
+                  {% include social-media.html %}
+
                   
                </div> 
             </div> 
@@ -35,11 +34,11 @@
        <div class="headline_boxes"> 
          {% assign blogPosts = site.posts | where: "category", filter %}
          {% for post in blogPosts limit:1 %}
-            {% if NOT post.featured %}
-            <div class="posts" >
-               <span class="post-heading">
+            {% if post.featured == false %}
+            <div class="posts">
+               <h3>
                   <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-               </span>
+               </h3>
                {{ post.date | date: '%B %d, %Y'}}
                <div>
                   {% if post.image != null %}  
@@ -52,10 +51,9 @@
                      {{ post.content | truncatewords:10}} 
                      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
                   </div>
-                  
-                  <span style="float:right;">
-                     {% include social-media.html %}
-                  </span>
+
+                  {% include social-media.html %}
+
                </div> 
             </div> 
             {% endif %}
