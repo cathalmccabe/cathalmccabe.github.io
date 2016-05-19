@@ -1,0 +1,28 @@
+       <div class="headline_boxes"> 
+         {% assign blogPosts = site.posts | where: "category", filter %}
+         {% for post in blogPosts limit:1 %}
+            {% if post.featured == featured %}
+            <div class="posts">
+               <h3>
+                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+               </h3>
+               {{ post.date | date: '%B %d, %Y'}}
+               <div>
+                  {% if post.image != null %}  
+                  <div class="thumbnail">
+                       <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image }}"></a>
+                  </div>
+                  {% endif %}
+                  <br>
+                  <div class="post-text">
+                     {{ post.content | truncatewords:10}} 
+                     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
+                  </div>
+
+                  {% include social-media.html %}
+
+               </div> 
+            </div> 
+            {% endif %}
+         {% endfor %}
+       </div>
