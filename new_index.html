@@ -3,10 +3,10 @@ layout: new_default
 ---
       
 <div class="main_container">
-   <div style="cols">
+   <div style="headline_cols">
    <h3>News</h3>
    
-      <div class="posts_container"> 
+      <div class="headline_boxes"> 
          {% assign blogPosts = site.posts | where: "category", "blog" %}
          {% for post in blogPosts limit:1 %}
          <div class="posts" >
