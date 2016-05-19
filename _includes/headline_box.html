@@ -15,7 +15,7 @@
                   {% endif %}
                   <br>
                   <div class="post-text">
-                     {{ post.content | truncatewords:10}} 
+                     {{ post.content | truncate:50}} 
                      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
                   </div>
 

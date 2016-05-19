@@ -1,34 +1,6 @@
        <h3>Featured</h3>
-       <div class="headline_boxes"> 
-         {% assign resindex = site.posts | where: "category", filter %}
-         {% for post in resindex %}
-            {% if post.featured == true %}   
-            <div class="posts">
-               <h3>
-                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-               </h3>
-               {{ post.date | date: '%B %d, %Y'}}
-               <div>
-                  {% if post.image != null %}  
-                  <div class="thumbnail">
-                       <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image }}"></a>
-                  </div>
-                  {% endif %}
-                  <br>
-                  <div class="post-text">
-                     {{ post.content | truncatewords:10}} 
-                     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
-                  </div>
-
-                  {% include social-media.html %}
-
-                  
-               </div> 
-            </div> 
-            {% break %} {% comment %}exit the for loop{% endcomment %}          
-            {% endif %}
-         {% endfor %}
-       </div>
+       {% assign featured = true %}
+       {% include headline_box.html %}
        
        <h3>Recent</h3>
        {% assign featured = false %}
