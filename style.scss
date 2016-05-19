@@ -256,6 +256,7 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
+  font-size 12px;
 }
 
 .posts > .post:last-child {
@@ -263,12 +264,12 @@ nav {
   border-bottom: none;
 }
 
-.post-heading {
+.post h3 {
   font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 1.6;
+  line-height: 1.4;
   margin: 1em 0 14px;
   padding: 0;
 
@@ -276,7 +277,7 @@ nav {
     line-height: 1.2;
   }
 
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .post-date {

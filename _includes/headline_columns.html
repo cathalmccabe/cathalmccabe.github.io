@@ -4,21 +4,25 @@
          {% for post in resindex %}
             {% if post.featured %}   
             <div class="posts" >
-               <span class="post-heading"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+               <span class="post-heading">
+                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+               </span>
                {{ post.date | date: '%B %d, %Y'}}
-               </span>
-               <span style="float:right;">
-                 {% include social-media.html %}
-               </span>
                <div>
                   {% if post.image != null %}  
                   <div class="thumbnail">
                        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image }}"></a>
                   </div>
                   {% endif %}
+                  <br>
                   <div class="post-text">
-                  {{ post.content | truncatewords:10}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
+                     {{ post.content | truncatewords:10}} 
+                     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
                   </div>
+                  
+                  <span style="float:right;">
+                     {% include social-media.html %}
+                  </span>
                   
                </div> 
             </div> 
@@ -31,26 +35,29 @@
        <div class="headline_boxes"> 
          {% assign blogPosts = site.posts | where: "category", filter %}
          {% for post in blogPosts limit:1 %}
-            {% if post.featured %}
+            {% if NOT post.featured %}
             <div class="posts" >
-               <span class="post-heading"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+               <span class="post-heading">
+                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+               </span>
                {{ post.date | date: '%B %d, %Y'}}
-               </span>
-               <span style="float:right;">
-                 {% include social-media.html %}
-               </span>
                <div>
                   {% if post.image != null %}  
                   <div class="thumbnail">
                        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image }}"></a>
                   </div>
                   {% endif %}
+                  <br>
                   <div class="post-text">
-                  {{ post.content | truncatewords:10}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
+                     {{ post.content | truncatewords:10}} 
+                     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
                   </div>
                   
+                  <span style="float:right;">
+                     {% include social-media.html %}
+                  </span>
                </div> 
-             </div>  
-             {% endif %}
+            </div> 
+            {% endif %}
          {% endfor %}
        </div>
