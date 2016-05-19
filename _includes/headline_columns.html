@@ -1,0 +1,56 @@
+       <h3>Featured</h3>
+       <div class="headline_boxes"> 
+         {% assign resindex = site.posts | where: "category", filter %}
+         {% for post in resindex %}
+            {% if post.featured %}   
+            <div class="posts" >
+               <span class="post-heading"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+               {{ post.date | date: '%B %d, %Y'}}
+               </span>
+               <span style="float:right;">
+                 {% include social-media.html %}
+               </span>
+               <div>
+                  {% if post.image != null %}  
+                  <div class="thumbnail">
+                       <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image }}"></a>
+                  </div>
+                  {% endif %}
+                  <div class="post-text">
+                  {{ post.content | truncatewords:10}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
+                  </div>
+                  
+               </div> 
+            </div> 
+            {% break %} {% comment %}exit the for loop{% endcomment %}          
+            {% endif %}
+         {% endfor %}
+       </div>
+       
+       <h3>Recent</h3>
+       <div class="headline_boxes"> 
+         {% assign blogPosts = site.posts | where: "category", filter %}
+         {% for post in blogPosts limit:1 %}
+            {% if post.featured %}
+            <div class="posts" >
+               <span class="post-heading"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+               {{ post.date | date: '%B %d, %Y'}}
+               </span>
+               <span style="float:right;">
+                 {% include social-media.html %}
+               </span>
+               <div>
+                  {% if post.image != null %}  
+                  <div class="thumbnail">
+                       <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image }}"></a>
+                  </div>
+                  {% endif %}
+                  <div class="post-text">
+                  {{ post.content | truncatewords:10}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
+                  </div>
+                  
+               </div> 
+             </div>  
+             {% endif %}
+         {% endfor %}
+       </div>
