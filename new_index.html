@@ -3,100 +3,55 @@ layout: new_default
 ---
       
 <div class="main_container">
-  <br>
+   <div style="cols">
+   <h3>News</h3>
+   
+      <div class="posts_container"> 
+         {% assign blogPosts = site.posts | where: "category", "blog" %}
+         {% for post in blogPosts limit:1 %}
+         <div class="posts" >
+         <!--<article class="post"> -->   
+            <span class="post-heading"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            {{ post.date | date: '%B %d, %Y'}}
+            </span>
+            <span style="float:right;">
+              {% include social-media.html %}
+            </span>
+            <div>
+               {% if post.image != null %}  
+               <div class="thumbnail">
+                    <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image }}"></a>
+               </div>
+               {% endif %}
+               <div class="post-text">
+               {{ post.content | truncatewords:10}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
+               </div>
+               
+            </div> 
+            </div>  
+         {% endfor %}
+       </div>
+    
+    
+       <div>
+            {% assign resindex = site.posts | where: "category", "project" %}
+            {% for post in resindex %}
+               {% if post.featured %}   
+                  <article class="recent-posts">   
+                    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+                    {{ post.date | date: '%B %d, %Y'}}	
+                  </article>
 
-  <div>
-    <div class="posts_container"> 
-      {% assign blogPosts = site.posts | where: "category", "blog" %}
-      {% for post in blogPosts limit:5 %}
-      <div class="posts" >
-      <!--<article class="post"> -->   
-         <span class="post-heading"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-         {{ post.date | date: '%B %d, %Y'}}
-         </span>
-         <span style="float:right;">
-           {% include social-media.html %}
-         </span>
-         <div>
-            {% if post.image != null %}  
-            <div class="thumbnail">
-                 <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image }}"></a>
-            </div>
-            {% endif %}
-            <div class="post-text">
-            {{ post.content | truncatewords:30}} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
-            </div>
-            
-         </div> 
-         <!--</article>-->
-         {% if forloop.last == false %} 
-         <hr>
-         {% endif %}
-         </div>  
-      {% endfor %}
-    </div>
+                  {% break %} {% comment %}exit the for loop{% endcomment %}          
+               {% endif %}
+            {% endfor %}
+       <div>
+    
+   </div>  
 
    <div class="right_bar">
-<!--
-      <div>
-         <h3>Search By Tags</h3>
-         {% include post-tags.html %}
-      </div>-->
-    
-    <!-- Html Elements for Search -->
-    
-      <!--<h3> Search posts</h3>  
-      <div id="search-container">
-         <input type="text" id="search-input" placeholder="search...">
-         <ul id="results-container"></ul>
-      </div>-->
-      
-      
-      <!-- JS SEARCH from: https://github.com/christian-fei/Simple-Jekyll-Search -->
-      <!--<script src="{{ site.baseurl }}/js/jekyll-search.js" type="text/javascript"></script>
-      
-      <script type="text/javascript">
-         SimpleJekyllSearch({
-           searchInput: document.getElementById('search-input'),
-           resultsContainer: document.getElementById('results-container'),
-           json: '/search.json',
-           searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
-           noResultsText: 'No results found',
-           limit: 10,
-           fuzzy: false,
-           exclude: ['Welcome']
-         })
-      </script> 
 
-      <div class="recent-posts">
-         <h3>Featured Posts</h3>
-         {% assign maxPost = 5 %}
-         {% assign counter = 0 %}
--->
-         <!--{% assign featuredPosts = site.posts | where: 'featured', 'true' | where: 'category', 'project' %}-->
-<!--         {% assign featuredPosts = site.posts | where: "category", "blog" %}
-         {% for post in featuredPosts %}
-            {% if post.featured %}   
-               <article class="recent-posts">   
-                 <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-                 {{ post.date | date: '%B %d, %Y'}}	
-               </article>
-               {% assign counter = counter | plus: 1 %}
-               {% if counter == maxPost %}
-                  {% break %} {% comment %}exit the for loop{% endcomment %}
-               {% else %}
-               <hr>
-               {% endif %}               
-            {% endif %}
-         {% endfor %}
-      </div>
-      
-      <br>
--->      
-      {% include twitter.txt %}
-
-    </div>
-  </div>
+   </div>
 </div>
 
 
