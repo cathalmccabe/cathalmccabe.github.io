@@ -6,10 +6,13 @@
             {% if post.featured == {{featured}} %}
             
             <div class="posts">
+               <div class="heading">
                <h3>
                   <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                </h3>
-               Featured: {{ post.date | date_to_string }}
+               </div>
+               {% if post.featured == {{featured}} %}Featured: {% endif %}
+               {{ post.date | date_to_string }}
                <div>
                   {% if post.image != null %}  
                   <div class="thumbnail">
