@@ -1,8 +1,8 @@
        <div class="headline_boxes"> 
+         {% assign maxPost = 1 %}
+         {% assign counter = 0 %}
          {% assign blogPosts = site.posts | where: "category", filter %}
-         {% for post in blogPosts limit:1 %}
-            {{ post.title }}
-            {{featured}}
+         {% for post in blogPosts %}
             {% if post.featured == {{featured}} %}
             
             <div class="posts">
@@ -26,6 +26,10 @@
 
                </div> 
             </div> 
+            {% assign counter = counter | plus: 1 %}
             {% endif %}
+            {% if counter == maxPost %}
+               {% break %} {% comment %}exit the for loop{% endcomment %}
+            {% endif %}               
          {% endfor %}
        </div>
