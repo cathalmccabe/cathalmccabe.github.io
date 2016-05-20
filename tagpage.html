@@ -13,8 +13,11 @@ permalink: /tags/
 {% endfor %}
 </ul>
 
+{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tag_words = site_tags | split:',' | sort %}
+
 <div id="archives">
-{% for tag in site.tags %}
+{% for tag in tag_words %}
   <div class="archive-group">
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
     <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
