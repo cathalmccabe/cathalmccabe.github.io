@@ -28,6 +28,7 @@
             </div> 
             {% assign counter = counter | plus: 1 %}
             {% endif %}
+            
             {% if counter == maxPost %}
                {% break %} {% comment %}exit the for loop{% endcomment %}
             {% endif %}               

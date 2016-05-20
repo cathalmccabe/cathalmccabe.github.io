@@ -256,7 +256,7 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .posts > .post:last-child {
@@ -277,7 +277,7 @@ nav {
     line-height: 1.2;
   }
 
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .post-date {
@@ -387,7 +387,7 @@ footer {
 }
 // Index.html; post summary formatting
 .thumbnail img{
-    width: 100%;
+    width: 200px;
     #height: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
