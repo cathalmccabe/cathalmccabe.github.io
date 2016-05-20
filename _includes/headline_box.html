@@ -1,7 +1,10 @@
        <div class="headline_boxes"> 
          {% assign blogPosts = site.posts | where: "category", filter %}
          {% for post in blogPosts limit:1 %}
+            {{ post.title }}
+            {{featured}}
             {% if post.featured == {{featured}} %}
+            
             <div class="posts">
                <h3>
                   <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
