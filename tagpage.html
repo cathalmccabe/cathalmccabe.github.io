@@ -18,6 +18,7 @@ permalink: /tags/
 {{tag_words}}
 <div id="archives">
 {% for tag in tag_words %}
+{{tag}}
   <div class="archive-group">
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
     <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
