@@ -7,7 +7,6 @@ featured: false
 tags:
 - FPL Conference
 - Best Papers
-- Featured
 ---
 
 2015 was the 25th anniversay of the Field Programmable Logic (FPL) conference.
