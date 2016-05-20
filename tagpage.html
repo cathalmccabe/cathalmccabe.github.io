@@ -17,8 +17,8 @@ permalink: /tags/
 {% assign tag_words = site_tags | split:',' | sort %}
 {{tag_words}}
 <div id="archives">
-{% for tag in tag_words %}
-{{tag}}
+{% for word in tag_words %}
+{{word}}
   <div class="archive-group">
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
     <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
