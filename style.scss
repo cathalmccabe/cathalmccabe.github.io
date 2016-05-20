@@ -270,7 +270,6 @@ nav {
   font-weight: bold;
 
   line-height: 1.4;
-  margin: 1em 0 14px;
   padding: 0;
 
   @include mobile {
@@ -281,9 +280,7 @@ nav {
 }
 
 .post-date {
-   margin-left: 1em;
-   margin-right: 1em;
-   font-size: 14px;
+   font-size: 10px;
    color: $lightGray;
 }
 .post {
@@ -303,12 +300,12 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
 .recent-posts{
-   font-size: 13px
+   font-size: 12px
 }
 .wrapper-footer {
   clear: both;			
