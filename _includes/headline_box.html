@@ -9,7 +9,7 @@
                <h3>
                   <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                </h3>
-               {% if post.featured == {{featured}} %}<b>Featured Post</b>{% else %}
+               {% if post.featured == "true" %}<b>Featured Post</b>{% else %}
                {{ post.date | date_to_string }}
                {% endif %}
                <div>
