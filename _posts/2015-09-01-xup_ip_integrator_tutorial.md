@@ -3,7 +3,7 @@ layout: post
 category: tutorials
 title: Vivado Tutorial using IP Integrator
 image: 
-featured: false
+featured: true
 tags: 
 - Tutorial
 - Basys 3
