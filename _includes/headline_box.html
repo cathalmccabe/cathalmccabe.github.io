@@ -9,15 +9,16 @@
                <h3>
                   <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                </h3>
-               {% if post.featured == {{featured}} %}<b>Featured: </b>{% endif %}
+               {% if post.featured == {{featured}} %}<b>Featured Post</b>{% else %}
                {{ post.date | date_to_string }}
+               {% endif %}
                <div>
                   {% if post.image != null %}  
                   <div class="thumbnail">
                        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image }}"></a>
                   </div>
-                  {% endif %}
                   <br>
+                  {% endif %}
                   <div class="post-text">
                      {{ post.content | truncate:50}} 
                      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
