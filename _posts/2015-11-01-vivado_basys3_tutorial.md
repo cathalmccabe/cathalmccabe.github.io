@@ -17,4 +17,4 @@ This tutorial, with video, shows how to get started with Vivado (including and i
 
 The tutorial shows how to create a simple Abacus design in Verilog, use Vivado XDC constraints, and build the project and test on the board. You will also see how to program the board. 
 
-(Getting Started with the Basys 3 and Vivado)[Getting Started with the Basys 3 and Vivado]
+[Getting Started with the Basys 3 and Vivado](Getting Started with the Basys 3 and Vivado)
