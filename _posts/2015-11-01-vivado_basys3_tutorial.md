@@ -1,7 +1,7 @@
 ---
 layout: post
 category: tutorials
-title: Getting Started with the Basys 3 and Vivado
+title: Getting Started with Vivado and Basys 3
 image: 
 featured: false
 tags: 
