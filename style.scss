@@ -384,11 +384,11 @@ footer {
 }
 // Index.html; post summary formatting
 .thumbnail img{
-    width: 190px;
+    width: 180px;
     #height: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-right: 5px;
+    margin-right: 10px;
     //margin-left: 0px;
     float: left;
 }
@@ -721,15 +721,10 @@ a:hover {
     width: 200px;
     background-color: #ffffff;
     float: left;
-    #margin: 5px;
-    padding: 25px;
+    margin: 25px;
+    padding: 5px;
 }
-.col_heading{
-   #background-color: #e0e0e0;
-   #width: 100%;
-   height: 50px;   
-  line-height: 0;
-}
+
 .headline_boxes{
    width: 200px;
    float: left;

@@ -6,12 +6,10 @@
             {% if post.featured == {{featured}} %}
             
             <div class="posts">
-               <div class="col_heading">
                <h3>
                   <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                </h3>
-               </div>
-               {% if post.featured == {{featured}} %}Featured: {% endif %}
+               {% if post.featured == {{featured}} %}<b>Featured: </b>{% endif %}
                {{ post.date | date_to_string }}
                <div>
                   {% if post.image != null %}  
