@@ -56,7 +56,7 @@ Available as hardcopy, or free eBook.
 <br>
 <br>
 
-<a href=\"http://store.elsevier.com/Digital-Design-and-Computer-Architecture/David-Harris/isbn-9780123944245/">http://store.elsevier.com/Digital-Design-and-Computer-Architecture/David-Harris/isbn-9780123944245/</a>" %}
+<a href=\"http://store.elsevier.com/Digital-Design-and-Computer-Architecture/David-Harris/isbn-9780123944245\">http://store.elsevier.com/Digital-Design-and-Computer-Architecture/David-Harris/isbn-9780123944245/</a>" %}
 
 
 
