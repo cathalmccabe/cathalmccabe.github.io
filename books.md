@@ -17,7 +17,7 @@ Available as hardcopy, or free eBook.
 ### The MicroZed Chronicles
 
 
-{% include image_paragraph.html url="images/books/zed_chronicles.jpg" paragraph="Collection of blog posts by Adam Taylor on working with Zynq. Practical, hands-on guide to working with Zynq. Available as eBook.
+{% include image_paragraph.html url="/images/books/zed_chronicles.jpg" paragraph="Collection of blog posts by Adam Taylor on working with Zynq. Practical, hands-on guide to working with Zynq. Available as eBook.
 <br>
 <br>
 <>
@@ -33,7 +33,7 @@ Intended for both hardware and sofware designers interested in learning VHDL.HDL
 
 ### Design Recipes for FPGAs: Using Verilog and VHDL
 
-{% include image_paragraph.html url="images/books/zed_chronicles.jpg" paragraph="This book provides a rich toolbox of design techniques and templates to solve practical, every-day problems using FPGAs. Using a modular structure, it provides design techniques and templates at all levels, together with functional code, which you can easily match and apply to your application. 
+{% include image_paragraph.html url="/images/books/design_recipes.jpg" paragraph="This book provides a rich toolbox of design techniques and templates to solve practical, every-day problems using FPGAs. Using a modular structure, it provides design techniques and templates at all levels, together with functional code, which you can easily match and apply to your application. 
 <br>
 <br>
 
