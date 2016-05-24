@@ -22,7 +22,7 @@ Available as hardcopy, or free eBook.
 
 ### VHDL Made Easy
 
-{% include image_paragraph.html url="/images/books/vhdl_made_easy.gif.jpg" paragraph="Intended for both hardware and sofware designers interested in learning VHDL.HDL (Hardware Description Languages) expertise is a critical, distinguishing skill that is essential to a successful career as an electronics designer.
+{% include image_paragraph.html url="/images/books/vhdl_made_easy.gif" paragraph="Intended for both hardware and sofware designers interested in learning VHDL.HDL (Hardware Description Languages) expertise is a critical, distinguishing skill that is essential to a successful career as an electronics designer.
 <br>
 <br>
 <a href=\"http://www.amazon.com/VHDL-Made-Easy-David-Pellerin/dp/0136507638\">http://www.amazon.com/VHDL-Made-Easy-David-Pellerin/dp/0136507638</a>" %}
@@ -52,7 +52,7 @@ Available as hardcopy, or free eBook.
 
 ### Digital Design and computer architecture
 
-{% include image_paragraph.html url="/images/books/.jpg" paragraph="Digital Design and Computer Architecture takes a unique and modern approach to digital design. Beginning with digital logic gates and progressing to the design of combinational and sequential circuits, Harris and Harris use these fundamental building blocks as the basis for what follows: the design of an actual MIPS processor. 
+{% include image_paragraph.html url="/images/books/digital_design_comp_architecture.jpg" paragraph="Digital Design and Computer Architecture takes a unique and modern approach to digital design. Beginning with digital logic gates and progressing to the design of combinational and sequential circuits, Harris and Harris use these fundamental building blocks as the basis for what follows: the design of an actual MIPS processor. 
 <br>
 <br>
 
