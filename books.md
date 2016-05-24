@@ -11,7 +11,7 @@ permalink: /books/
 Available as hardcopy, or free eBook.
 <br>
 <br>
-<a href="www.zynqbook.com">http://www.zynqbook.com></a>" %}
+<a href=/"www.zynqbook.com/">http://www.zynqbook.com></a>" %}
  
 
 ### The MicroZed Chronicles
