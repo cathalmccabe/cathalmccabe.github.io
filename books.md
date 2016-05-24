@@ -11,7 +11,7 @@ permalink: /books/
 Available as hardcopy, or free eBook.
 <br>
 <br>
-<a href=\"http://www.zynqbook.com">www.zynqbook.com</a>" %}
+<a href=\"http://www.zynqbook.com\">www.zynqbook.com</a>" %}
  
 
 ### The MicroZed Chronicles
@@ -22,7 +22,7 @@ Available as hardcopy, or free eBook.
 <br>
 <>
 
-<a href=\"http://adiuvoengineering.com/?page_id=285">http://adiuvoengineering.com/?page_id=285</a>" %}
+<a href=\"http://adiuvoengineering.com/?page_id=285\">http://adiuvoengineering.com/?page_id=285</a>" %}
 
 
 ### VHDL Made Easy
@@ -37,7 +37,7 @@ Intended for both hardware and sofware designers interested in learning VHDL.HDL
 <br>
 <br>
 
-<a href=\"http://amzn.com/0750668458">http://amzn.com/0750668458</a>" %}
+<a href=\"http://amzn.com/0750668458\">http://amzn.com/0750668458</a>" %}
 
 ### 100 Power Tips For FPGA Designers
 This book is a collection of short articles on various aspects of FPGA design: synthesis, simulation, porting ASIC designs, floorplanning and timing closure, design methodologies, performance, area and power optimizations, RTL coding, IP core selection, and many others. The book is intended for system architects, design engineers, and students who want to improve their FPGA design skills.
