@@ -5,14 +5,14 @@ permalink: /books/
 ---
 
 ### The Zynq Book
-![Zynq Book](../images/books/zynq_book_t.jpg "Zynq Book")
 
-The first and best introductory book for Zynq. Intended to be accessible and useful if you are starting to learn about Zynq, or if you are an experienced engineer. Hands-on examples for the Zybo and Zedboard are available as a companion book. 
- 
+{% include captionimage.html url="/images/books/zynq_book_t.jpg" paragraph="The first and best introductory book for Zynq. Intended to be accessible and useful if you are starting to learn about Zynq, or if you are an experienced engineer. Hands-on examples for the Zybo and Zedboard are available as a companion book. 
+<br>
 Available as hardcopy, or free eBook.
-
-
-<http://www.zynqbook.com>
+<br>
+<br>
+<a href="www.zynqbook.com">http://www.zynqbook.com></a>" %}
+ 
 
 ### The MicroZed Chronicles
 ![MicroZed Chronicles](../images/books/zed_chronicles_t.jpg "MicroZed Chronicles")
