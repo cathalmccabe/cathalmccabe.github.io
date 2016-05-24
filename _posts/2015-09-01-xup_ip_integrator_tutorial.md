@@ -2,7 +2,7 @@
 layout: post
 category: tutorials
 title: Vivado Tutorial using IP Integrator
-image: 
+image: /images/training/vivado_tutorial_t.jpg
 featured: true
 tags: 
 - Tutorial
