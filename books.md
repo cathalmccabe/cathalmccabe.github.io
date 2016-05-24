@@ -25,7 +25,7 @@ Available as hardcopy, or free eBook.
 {% include image_paragraph.html url="/images/books/vhdl_made_easy.gif.jpg" paragraph="Intended for both hardware and sofware designers interested in learning VHDL.HDL (Hardware Description Languages) expertise is a critical, distinguishing skill that is essential to a successful career as an electronics designer.
 <br>
 <br>
-<a href=\"http://www.amazon.com/VHDL-Made-Easy-David-Pellerin/dp/0136507638">http://www.amazon.com/VHDL-Made-Easy-David-Pellerin/dp/0136507638</a>" %}
+<a href=\"http://www.amazon.com/VHDL-Made-Easy-David-Pellerin/dp/0136507638\">http://www.amazon.com/VHDL-Made-Easy-David-Pellerin/dp/0136507638</a>" %}
 
 ### Design Recipes for FPGAs: Using Verilog and VHDL
 
@@ -39,7 +39,7 @@ Available as hardcopy, or free eBook.
 {% include image_paragraph.html url="/images/books/power_tips.jpg" paragraph="This book is a collection of short articles on various aspects of FPGA design: synthesis, simulation, porting ASIC designs, floorplanning and timing closure, design methodologies, performance, area and power optimizations, RTL coding, IP core selection, and many others. The book is intended for system architects, design engineers, and students who want to improve their FPGA design skills.
 <br>
 <br>
-<a href=\"http://www.amazon.com/dp/1461186293/">http://www.amazon.com/dp/1461186293</a>" %}
+<a href=\"http://www.amazon.com/dp/1461186293\">http://www.amazon.com/dp/1461186293</a>" %}
 
 ### Embedded Systems Design with Platform FPGAs: Principles and Practices
 
@@ -47,7 +47,7 @@ Available as hardcopy, or free eBook.
 <br>
 <br>
 
-<a href=\"http://amzn.com/0123743338">http://amzn.com/0123743338</a>" %}
+<a href=\"http://amzn.com/0123743338\">http://amzn.com/0123743338</a>" %}
 
 
 ### Digital Design and computer architecture
@@ -67,7 +67,7 @@ Available as hardcopy, or free eBook.
 <br>
 <br>
 
-<a href=\"http://amzn.com/0132776995">http://amzn.com/0132776995</a>" %}
+<a href=\"http://amzn.com/0132776995\">http://amzn.com/0132776995</a>" %}
 
 
 
@@ -76,5 +76,5 @@ Available as hardcopy, or free eBook.
 <br>
 <br>
 
-<a href=\"http://amzn.com/0077221435">http://amzn.com/0077221435</a>" %}
+<a href=\"http://amzn.com/0077221435\">http://amzn.com/0077221435</a>" %}
 
