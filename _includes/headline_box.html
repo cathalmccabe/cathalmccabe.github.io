@@ -21,11 +21,8 @@
                   {% endif %}
                   <div class="post-text">
                      {{ post.content | truncate:50}} 
-                     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
+                     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> <span style="float:right>">{% include social-media.html %}</span>
                   </div>
-
-                  {% include social-media.html %}
-
                </div> 
             </div> 
             {% assign counter = counter | plus: 1 %}
