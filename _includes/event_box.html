@@ -6,7 +6,8 @@
                         
             <div class="posts">
                {{ post.date | date_to_string }}
-                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>              
+               <br>
+                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncate:25 }}</a>              
                <div>
                   {% if post.image != null %}  
                   <div class="thumbnail">
@@ -16,7 +17,7 @@
                   {% endif %}
                   <div class="post-text">
                      <!-- post.content | truncate:50}} -->
-                     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">More</a> <span style="float:right>">{% include social-media.html %}</span>
+                     <span style="float:right">{% include social-media.html %}</span>
                   </div>
                </div> 
             </div> 
