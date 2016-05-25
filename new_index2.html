@@ -5,32 +5,35 @@ layout: new_default2
 <div class="main_container">
 
    <div class="headline_cols">
-      <a href="{{ site.baseurl }}/news">
-        <h3>News</h3>
-      </a>
+      <h2><a href="{{ site.baseurl }}/news">
+        News
+        </a>
+      </h2>
       <br>
       {% assign filter ="blog" %}
       {% include headline_columns.html %}
    </div>
    
    <div class="headline_cols">
-      <a href="{{ site.baseurl }}/news">
-        <h3>Projects</h3>
-      </a>
+      <h2>
+        <a href="{{ site.baseurl }}/news">
+          Projects
+        </a>
+      </h2>
       <br>
       {% assign filter ="project" %}
       {% include headline_columns.html %}
    </div>
 
    <div class="headline_cols">
-      <h3>Tutorials</h3>
+      <h2>Tutorials</h2>
       <br>
       {% assign filter ="tutorials" %}
       {% include headline_columns.html %}
    </div>
 
    <div class="headline_cols">
-      <h3>Events</h3>
+      <h2>Events</h2>
       <br>
       {% assign filter ="events" %}
       {% include event_box.html %}
