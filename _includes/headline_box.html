@@ -20,7 +20,7 @@
                   <br>
                   {% endif %}
                   <div class="post-text">
-                     {{ post.content | truncate:50}} 
+                     {{ post.content | truncate:75}} 
                      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> <span style="float:right>">{% include social-media.html %}</span>
                   </div>
                </div> 
