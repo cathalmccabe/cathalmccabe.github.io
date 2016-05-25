@@ -17,14 +17,16 @@
                   {% endif %}
                   <div class="post-text">
                      <!-- post.content | truncate:50}} -->
-                     <span style="float:right">{% include social-media.html %}</span>
+                     <span>{% include social-media.html %}</span>
                   </div>
                </div> 
-            </div> 
             {% assign counter = counter | plus: 1 %}
-            <hr>
             {% if counter == maxPost %}
+            </div>
                {% break %} {% comment %}exit the for loop{% endcomment %}
-            {% endif %}               
+            {% endif %}   
+
+               <hr>   
+            </div>             
          {% endfor %}
        </div>
