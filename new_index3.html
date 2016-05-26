@@ -10,8 +10,10 @@ layout: new_default2
         </a>
       </h2>
       <br>
-      {% assign filter ="blog" %}
-      {% include headline_columns.html %}
+      <div style="width:100%" class="horizontal">
+        {% assign filter ="blog" %}
+        {% include headline_columns.html %}
+      </div>
    </div>
    <br>
    <div >
@@ -21,24 +23,30 @@ layout: new_default2
         </a>
       </h2>
       <br>
+      <div style="width:100%" class="horizontal">
       {% assign filter ="project" %}
       {% include headline_columns.html %}
+      </div>
    </div>
 
    <br>
    <div >
       <h2>Tutorials</h2>
       <br>
+      <div style="width:100%" class="horizontal">
       {% assign filter ="tutorials" %}
       {% include headline_columns.html %}
+      </div>
    </div>
 
    <br>
    <div >
       <h2>Events</h2>
       <br>
+      <div style="width:100%" class="horizontal">
       {% assign filter ="events" %}
       {% include event_box.html %}
+      </div>
    </div>  
 
 </div>
