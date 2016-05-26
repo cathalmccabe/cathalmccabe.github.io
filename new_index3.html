@@ -1,0 +1,48 @@
+---
+layout: new_default2
+---
+   
+<div class="main_container">
+
+   <div>
+      <h2><a href="{{ site.baseurl }}/news">
+        News
+        </a>
+      </h2>
+      <br>
+      {% assign filter ="blog" %}
+      {% include headline_columns.html %}
+   </div>
+   <br>
+   <div >
+      <h2>
+        <a href="{{ site.baseurl }}/news">
+          Projects
+        </a>
+      </h2>
+      <br>
+      {% assign filter ="project" %}
+      {% include headline_columns.html %}
+   </div>
+
+   <br>
+   <div >
+      <h2>Tutorials</h2>
+      <br>
+      {% assign filter ="tutorials" %}
+      {% include headline_columns.html %}
+   </div>
+
+   <br>
+   <div >
+      <h2>Events</h2>
+      <br>
+      {% assign filter ="events" %}
+      {% include event_box.html %}
+   </div>  
+
+</div>
+
+
+
+
