@@ -1,0 +1,35 @@
+       <div class="headline_boxes"> 
+         {% assign maxPost = 1 %}
+         {% assign counter = 0 %}
+         {% assign blogPosts = site.posts | where: "category", filter %}
+         {% for post in blogPosts %}
+            {% if post.featured == {{featured}} %}
+            
+            <div class="posts">
+              
+               <div>
+                  {% if post.image != null %}  
+                  <div class="thumbnail">
+                       <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}{{ post.image }}"></a>
+                  </div>
+                  {% endif %}
+                  <div class="post-text" style="float:right;"> 
+                    <h3>
+                      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    </h3>
+                     {% if post.featured == "true" %}<b>Featured Post</b>{% else %}
+                     {{ post.date | date_to_string }}
+                     {% endif %}
+                     {{ post.content | truncate:150}} 
+                     <br><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> <br><span style="float:right>">{% include social-media.html %}</span>
+                  </div>
+               </div> 
+            </div> 
+            {% assign counter = counter | plus: 1 %}
+            {% endif %}
+            
+            {% if counter == maxPost %}
+               {% break %} {% comment %}exit the for loop{% endcomment %}
+            {% endif %}               
+         {% endfor %}
+       </div>
