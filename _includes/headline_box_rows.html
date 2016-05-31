@@ -21,7 +21,7 @@
                      {% endif %}
                      <span style="float:right>">{% include social-media.html %}</span>
                      <br>
-                     {{ post.content | truncate:150}} 
+                     {{ post.content | truncate:150 | split:'<a href' | first }} 
                      <br><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
                   </div>
                </div> 
