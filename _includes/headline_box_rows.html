@@ -19,8 +19,10 @@
                      {% if post.featured == "true" %}<b>Featured Post</b>{% else %}
                      {{ post.date | date_to_string }}
                      {% endif %}
+                     <span style="float:right>">{% include social-media.html %}</span>
+                     <br>
                      {{ post.content | truncate:150}} 
-                     <br><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> <br><span style="float:right>">{% include social-media.html %}</span>
+                     <br><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a> 
                   </div>
                </div> 
             </div> 
