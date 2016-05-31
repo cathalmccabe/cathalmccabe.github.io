@@ -19,8 +19,8 @@ permalink: /tags/
 <div id="archives">
 {% for word in tag_words %}
   <div class="archive-group">
-    <h3 id="#{{ word | slugize }}">{{ word }}</h3>
     <a name="{{ word | slugize }}"></a>
+    <h3 id="#{{ word | slugize }}">{{ word }}</h3>  
     {% for post in site.tags[{{word}}] %}
     <article class="archive-item">
       <h4><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h4>
